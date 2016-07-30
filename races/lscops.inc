@@ -1,0 +1,97 @@
+//
+// Created:     Unknown
+// Aurthor:    	Switch
+// Converter: 	MadCat
+// Based on FBI race
+//
+
+#if defined _race_lscops_included
+  #endinput
+#endif
+
+#define _race_lscops_included
+#pragma library race_lscops
+#include "race"
+
+forward race_lscops_init();
+
+static racename[MAX_NAME] = "Cops of Los-Santos";
+static racefrequency = 5;
+static lineupdelay = 240;
+static minracers = 3;
+static allowedcars[MAX_RACE_VEHICLES+1] = {V_ENFORCER,V_COPBIKE,V_PATRIOT,V_COPCARLA,V_COPCARSF,V_COPCARVG,V_COPCARRU,V_SWATVAN,V_FBIRANCH};
+static Float:startlineheading = 89.7591;
+static Float:racecheckpoints[][CoordInfo] = {
+{1507.1228,-1731.9659,13.5099},
+{1429.2101,-1708.8021,13.5119},
+{1429.9298,-1572.0969,13.4840},
+{1438.6615,-1439.7325,13.5119},
+{1320.8367,-1401.8278,13.4459},
+{1133.2611,-1420.8163,14.8774},
+{1102.4535,-1486.9497,15.9238},
+{999.8088,-1491.3942,13.5097},
+{895.9304,-1484.2461,13.6924},
+{793.3741,-1469.7067,13.5155},
+{779.0912,-1399.0533,13.4985},
+{634.2018,-1422.5022,13.7612},
+{652.5010,-1671.7864,14.5868},
+{810.7343,-1688.7456,13.5117},
+{823.8928,-1771.8079,13.5300},
+{1082.4229,-1849.4127,13.5531},
+{1324.5029,-1854.2853,13.5119},
+{1467.8275,-1871.8934,13.5119},
+{1715.3456,-1858.8893,13.7074},
+{1844.2422,-1883.6763,13.5600},
+{1960.5509,-1873.0236,13.5118},
+{1970.0592,-1752.7601,13.5116},
+{2229.2361,-1732.2227,13.5115},
+{2414.0220,-1756.7267,13.5118},
+{2413.5671,-2032.1310,13.5338},
+{2399.6560,-2163.7139,13.6344},
+{2285.4016,-2252.4707,13.4900},
+{2154.6289,-2128.0989,13.4737},
+{1925.2555,-2102.3291,13.7118},
+{1787.5077,-2109.4014,13.5377},
+{1644.4363,-2118.8223,13.6838},
+{1563.7404,-2119.2300,15.9226},
+{1640.1731,-1855.4514,25.7341},
+{1631.6704,-1598.4336,28.6539},
+{1712.3485,-1529.0729,21.0597},
+{1880.4043,-1534.3431,4.0453},
+{1800.1924,-1587.0544,13.6390},
+{1750.2484,-1617.0507,13.5164},
+{1732.2059,-1732.4878,13.5247},
+{1507.2578,-1732.8569,13.5118}
+};
+
+static RaceID; // this will hold the id this race is assigned at init
+
+public race_lscops_init() // unique named init function (must be ran on gamemode init)
+{
+	RaceID = RegisterRace(racename);
+	if (RaceID == INVALID_RACE_ID) return;
+
+	Race[RaceID][race_frequency] = racefrequency;
+ 	Race[RaceID][race_lineupdelay] = lineupdelay;
+ 	Race[RaceID][race_minracers] = minracers;
+
+	Race[RaceID][race_startheading] = startlineheading;
+	set(Race[RaceID][race_vehicles],allowedcars);
+
+	RaceSize[RaceID] = sizeof(racecheckpoints);
+	for (new cpid=0;cpid<sizeof(racecheckpoints);cpid++)
+	{
+		RaceCheckpoints[RaceID][cpid][Coord_X] = racecheckpoints[cpid][Coord_X];
+		RaceCheckpoints[RaceID][cpid][Coord_Y] = racecheckpoints[cpid][Coord_Y];
+		RaceCheckpoints[RaceID][cpid][Coord_Z] = racecheckpoints[cpid][Coord_Z];
+	}
+
+	RaceStats[RaceID][race_timer] = MakeRaceSleepTime(RaceID);
+	Race[RaceID][race_cashprize] = CalculateRewardMoney(RaceID); 
+	Race[RaceID][race_cashentry] = CalculateEntryFee(RaceID); 
+	Race[RaceID][race_xpprize] = CalculateRewardXP(RaceID); 
+	Race[RaceID][race_maxracetime] = CalculateMaxRaceTime(RaceID);
+    RaceStats[RaceID][race_state] = RACE_STATE_SLEEPING;
+
+}
+

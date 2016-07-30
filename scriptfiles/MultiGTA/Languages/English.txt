@@ -1,0 +1,1792 @@
+1;(payday) You receive $%d as a cop.
+2;(payday) You receive $%d as a medic.
+3;(payday) You receive $%d.
+4;(Wang Exports) We are currently buying %s's.
+5;(Wang Exports) Excellent, we will export your %s at once! Here is $%d for your services.
+6;(error) Sorry, we're not buying that particular vehicle at this time.
+7;(bank) You are at a bank. To deposit money type '/put <amount>'. To withdraw money type '/get <amount>'.
+8;(bank) Your current bank balance is $%d.
+9;(bank) You are in gang and can use '/gang bankget <amount>' to get money
+10;(bank) from gang bank or '/gang bankput <amount>' to put money gang bank
+11;(bank) Current bank balance of your gang is $%d.
+12;(error) You must be at a bank to do this
+13;(error) USAGE: '/get <amount>'
+14;(bank) $%d withdrawn. Current balance: $%d.
+15;(error) USAGE: '/put <amount>'
+16;(bank) $%d deposited. Current balance: $%d.
+17;(bank) Your bank is full!
+18;(phone service) Connection broken
+19;(phone service) Sorry, the line is dead
+20;(phone service) Sorry, the player at phone isnt connected to phone service anymore
+21;(phone serive) The player is busy right now, recall later.
+22;(phone service) %s hung up the phone
+23;(phone service) *tut*
+24;(error) Nobody is trying to call you at the moment
+25;(phone service) You accepted the call from %s, just speak normal to chat with him
+26;(phone service) %s accepted your call, just speak normal to chat with him
+27;(error) You havent called anyone.
+28;(phone service) You hung up the phone.
+29;(phone service) Your phone partner hung up.
+30;(error) USAGE: '/call [playerid/partofname/name]'
+31;(error) You cannot call yourself!
+32;(error) Selected player is not connected!
+33;(phone service) The line is busy, please try again later
+34;(phone service) %s is calling you. '/accept' or ignore it
+35;(error) USAGE: '/sms [playerid/partofname/name] [text]'
+36;(error) You cannot send sms to yourself!
+37;(SMS) From %s: %s
+38;(SMS) To %s: %s
+39;(error) You are already logged in.
+40;(moderator) You are logged as moderator
+41;(login) Logged in!
+42;(login) That account name does not exist.
+43;(login) Use '/register [password] [email]' to create an account.
+44;(security) Incorrect Password.
+45;(security) Too many failed logins. You will be auto kicked for security
+46;Too many failed logins
+47;(account) Sorry, your account has been closed. Contact with server moderators/administrators
+48;(error) BAD CHARACTER IN EMAIL.
+49;(error) USAGE: '/register [password] [email]'
+50;(error) That account name already exists.
+51;(account) Account created.
+52;(error) USAGE: '/changepass [new password]'
+53;(login) You are not logged in.
+54;(account) Password changed.
+55;(error) USAGE: '/login [password]'
+56;(account) This nick is registered. Log in with '/login [password]'.
+57;(account) Don't forget to check server rules using '/rules' command.
+58;(account) This server requires registration. Register with '/register [password] <email>',
+59;(account) Then check server rules using '/rules' command.
+60;~r~~k~~PED_FIREWEAPON~ ~w~next~n~~r~~k~~PED_JUMPING~ ~w~previous~n~~r~~k~~PED_SPRINT~ ~w~exit 
+61;(club) You are at club. Want to enter? Type '/enter' :)
+62;(error) Dancing on the streets - not good idea.
+63;(club) Welcome! Wanna dance? Use '/dance1', '/dance2', '/dance3' and '/dance4'
+64;(error) The club is full right now, please come back later
+65;~r~%d ~w~KM/H
+66;~b~%d ~w~KM/H
+67;~y~%d ~w~KM/H
+68;%s~n~~w~Petrol: ~g~%d
+69;%s~n~~w~Petrol: ~b~%d
+70;%s~n~~w~Petrol: ~y~%d
+71;%s~n~~w~Petrol: ~r~%d
+72;(fuel) You restored petrol with one of your Fuel Canisters
+73;Your vehicle ran out of petrol
+74;(petrol) You put %d units of petrol in your vehicle for $%d
+75;(petrol) Petrol is free for you!
+76;(error) You don't have enough money for petrol
+77;(error) Your vehicle is already full with petrol
+78;(petrol) A nearest fuel checkpoint activated!
+79;(petrol business) You can get money from station. Current money: %d
+80;(petrol business) You can buy this Fuelstation for $%d. Required level: %d. Use '/buy' to do this.
+81;~w~Hotwire:~n~~y~Started
+82;(Hotwire) Hotwire started! Return the car to police station!
+83;(Hotwire) Go to the yellow marker and steal the hot car. Location: %s
+84;(Hotwire) Event started! Car location: %s.
+85;~w~Get back in the ~n~~y~Car
+86;(Hotwire) %s left the hot car! Grab it! Quick!
+87;~w~Get the ~y~Car~n~~w~to the ~r~Police Station!
+88;(Hotwire) Cop %s gonna to return a stolen car for $%d
+89;~w~Now get the ~y~Car~n~~w~to the ~r~Buyer
+90;(Hotwire) %s stolen a car for $%d
+91;~w~Get out of ~n~~y~car
+92;(Hotwire) Cop %s return stolen car to police station
+93;(Hotwire) %s sold a hot car for $%d.
+94;(ALL UNITS!) %s sold a hot car!
+95;(Hotwire) Oh no! Vehicle destroyed!
+96;~w~CashBox:~n~~y~Started
+97;(CashBox) Go to the red marker in %s, grab CashBox and get them to police station! You have %s to do this!
+98;(CashBox) Go to the red marker in %s and steal the CashBox! You have %s to do this!
+99;(CashBox) Event started! Cashbox location: %s.
+100;(CashBox) Cop %s has picked up the CashBox containing $%d
+101;~w~Get the CashBox~n~~w~to the ~r~Police Station!
+102;(CashBox) %s steal the cashbox $%d
+103;~w~Get the CashBox~n~~w~to the ~r~Safe place!
+104;(CashBox) Cop %s just returned The CashBox for $%d
+105;(CashBox) %s just cracked the CashBox For $%d!
+106;(ALL UNITS!) %s cracked the CashBox!
+107;(CashBox) %s died and dropped the cashbox!
+108;(CashBox) %s disconnected and dropped the cashbox!
+109;~r~Match interupted
+110;~g~Box:~n~Match Started
+111;(Boxing) %s has Won the fight against Champion %s and is now the new Champion.
+112;(Boxing) Champion %s has Won the fight against %s.
+113;(Boxing) You have Lost the Fight against %s.
+114;(Boxing) You have Won the Fight against %s.
+115;(Boxing) You feel exhausted from the Fight, go eat somewhere.
+116;(Boxing) You feel perfect, even after the Fight.
+117;~g~Match Over
+118;(Boxing) You have cancel the Boxing Challenge from %s
+119;(Boxing) %s has cancelled your Boxing Challenge Request!
+120;(error) You are already Fighting!
+121;(error) You are not offered to Boxing Challenge!
+122;(error) There is already a Fight going on, wait for it to Finish!
+123;(error) You are not at the Grove Street Gym entrance!
+124;(error) USAGE: '/boxfight [playerid/partofname/name]'
+125;(error) You cannot fight with yourself!
+126;(Boxing) You offered a Boxing Challenge to %s.
+127;(Boxing) Boxer %s wants to Fight with you (type '/boxaccept' or '/boxcancel' to make your choice).
+128;(error) Selected player is offline!
+129;Beginner
+130;Amateur
+131;Professional
+132;Undefeated
+133;Newcomer
+134;Touchy Fist
+135;Nut Cracker
+136;Tommygun
+137;Skull Breaker
+138;Light Speed
+139;Unbroken Warrior
+140;Itallion Stallion
+141;__________________ Boxing _________________
+142;Current Champion: %s, with %d Winnings and %d Loses.
+143;Now your info:
+144;Current Title: %s.
+145;Current Boxing NickName: %s.
+146;Total Wins: %d.
+147;Total Loses: %d.
+148;(error) You are busy!
+149;(Boxing) You have accepted the Boxing Challenge from %s.
+150;(Boxing) %s has accepted your Boxing Challenge Request.
+151;~r~Waiting
+152;(Boxing) Champion %s will fight VS %s, in 15 seconds (Grove Street Gym).
+153;(Boxing) You kill a boxer!
+154;you killed a boxer!
+155;~r~You lost
+156;~g~You won
+157;(error) You can't use this command here!
+158;(criminal help) If you want to work as cop, get to the checkpoint (GTA3 Sign + Bribe) near PD Entrance and type '/beacop'.
+159;(criminal help) This command is only available if you have no wanted level!
+160;(criminal help) Now you can arrest criminals (Typing '/ar'), if they have at least one wanted level (looks with '/wanteds').
+161;(criminal help) If you have no wanted level, you may try the cop job.
+162;(criminal help) Cop must arrest or kill criminals.
+163;(criminal help) Cop may arres criminal only if criminal is on foot, his health smaller than 50% and he is on 7 meters range.
+164;(criminal help) For every arrested criminal cop get money: (1000 * Wanted level of criminal) + (Crimes amount * 50)
+165;(criminal help) and xp (500 * Wanted level of criminal)+(Crimes amount * 25)
+166;(criminal help) If cop kill civilin, he will be fired!
+167;(criminal help) If you don't want be a cop, get to the checkpoint near PD and type '/nocop'
+168;(criminal help) And remember - don't seat in police vehicles if you are not a cop, or you will be criminal!
+169;(events help) Races are randomly running all over the world in MultiGTA.
+170;(mod help) '/race list' - see all available races
+171;(error) This vehicle can't be locked!
+172;(events help) Joining a race costs money, make sure you have enough on you.
+173;(events help) When race going to start, you will see a red map marker.
+174;(events help) You must get to the startline for the start of the race. (follow red marker)
+175;(events help) You will join a race when enter the startline.
+176;(events help) To leave a race type '/race leave' or '/race quit'.
+177;(events help) You must leave a race before it starts if you want your money back.
+178;Heli-Kill
+179;(events help) Deathmatches are randomly running all over the world in MultiGTA.
+180;(error) Thi vehicle can't be unlocked!
+181;(events help) Type '/dm join' to join dm (if you are in checkpoint).
+182;(events help) Joining a dm costs money, make sure you have enough on you.
+183;(events help) When dm will be ready to run, the red map marker will be set to the dm startline.
+184;(events help) You must get to the startline for the start of the dm. (follow your map marker)
+185;(events help) When DM start - kill players to get scores. But don't die - you loose them.
+186;Reconnecting
+187;Spam
+188;(hotwire help) The Hotwire mission work like this, you will get a text 'Hotwire: Started' in the bottom right of the screen.
+189;(hotwire help) After that there will appear a yellow icon on youre radar which is the car (hotwire)
+190;(hotwire help) Go to it, steal the car and bring it to the red marker what will appeare after you got in the car.
+191;(hotwire help) Of course, you will receive money for stealing car. But! Time is limited, be quick!
+192;(hotwire) Hotwire finished, time over! Caller will find another car!
+193;(cashbox help) The CashBox mission work like this, you will get a text 'CashBox: Started' in the bottom right of the screen.
+194;(cashbox help) After that there will appear a red marker on the map which is the CashBox. Pick it up 
+195;(cashbox help) and bring it to the red marker also called 'Safe Place', or, if you are a cop - to the police departament.
+196;(cashbox help) Of course, you will receive money for stealing/returning CashBox.
+197;~r~Hotwire~n~~w~Time left:~n~ ~r~ %s
+198;(gangs help) You can create a gang and use the gang-features like '!' for gangchat, gangcolors and gangtags.
+199;(gangs help) When in a gang you will share some of your experience gained with your gang members.
+200;(gangs help) Killing your gang members will gain you no experience.
+201;(gangs help) Gang kills and score are recorded. 
+202;(gangs help) All gang members has gang-tag, for example player with name 'Player' in gang 'WarDogz' with
+203;(gangs help) gang-tag 'WD' will be named '[WD]Player'.
+204;(gangs help) Type: '/gang commands' for gang command help.
+205;(business help) ArmDealers - sell weapons for spawn, located in places where was weapon pickups in singleplayer.
+206;(business help) Clothes Shops - lost wanted level, located in places where was clothes shops in singleplayer.
+207;(business help) Drink Vendors - buy energy drinks for restore HP at any place. Located near 27/4 Shops. Have %d seconds cooldown.
+208;(business help) Dinners - restore HP. Located near Well Stacked Pizza, Cluckin Bell and Burger Shots.
+209;(business help) Fuelstations - restore petrol and buy fuel canisters. Located at Fuel Stations
+210;(business help) Mine Shops - set mines on vehicle. Located near Transfenders
+211;(bank help) You are able to get to a bank in Commerce (LS), Esplanade East (SF) and Emerald Isle (LV).
+212;(bank help) When you are in type '/put' and '/get' to put money on your bank account or to get some from it.
+213;(bank help) '/get 1000' will reduce your bank money by 1000 and your wallet money increase by 1000.
+214;(bank help) '/put 1000' will reduce your wallet money by 1000 and your bank money increase by 1000.
+215;(bank help) You are a gangmember, you can use a gangbank.
+216;(bank help) Commands for gang bank: '/gang bankput' (like '/put') and '/gang bankget'(like '/get')
+217;(house/rent help) You may buy house in MultiGTA.
+218;(house/rent help) When you pickup a house icon, you will receive info about house.
+219;(house/rent help) To see detailed info, type '/hinfo' or '/houseinfo'. To buy house type '/hbuy' or '/housebuy'.
+220;(house/rent help) When you buy a house, you will get access to house-features, like enter/exit, guns and restore.
+221;(house/rent help) To enter house type '/enter'. To exit house type '/exit'. You must be near house entrance/exit to do this.
+222;(house/rent help) If you want to get guns, enter the house and type '/guns'. You will receive guns, special for every house.
+223;(house/rent help) And if you want to restore health/armor - enter the house and type '/restore'. But, you must buy upgrade first.
+224;(house/rent help) Use '/houseupgrade' command to do this. If you want - you may make your house rentable.
+225;(house/rent help) To make house (un)rentable, type '/changerent'. To set rent cost - type '/setrentcost'.
+226;(house/rent help) To see info about rent - use '/help rent'. For other house commands - type '/help commands'
+227;(events help) Now MultiGTA got 2 types of events: races and DMs.
+228;(house/rent help) And be careful - you can fall in some houses.
+229;(boxing help) Do you know what you can offer box fight to other players?
+230;(boxing help) Go to any Gym and type '/boxfight [playerid/partofname/name]'. Then selected player must be accept or reject.
+231;(boxing help) If he accept your offer, you and selected player appear on Boxing Ring and fight will began!
+232;(boxing help) Player with health closer to zero will lose. Another player will be winner.
+233;(boxing help) Simple? I think yes. And don't forget about stats by command '/boxstats'
+234;(commands) MultiGTA Commands
+235;(commands) '/register [password] [email]' - Create an account.
+236;(commands) '/login [password]' - Login to your account.
+237;(commands) '/changepass [new password]' - Change your account password.
+238;(commands) '/level' - Display level information.
+239;(commands) '/stats [playerid/partofname/name]' - Display stats. If playerid not set, you will see your own stat.
+240;(commands) '/playtime' - Info about time playing in online.
+241;(commands) '/givecash [playerid/partofname/name] [money-amount]' - Send money to other player (you need to be close).
+242;(commands) '/bounty [playerid/partofname/name] [money-amount]' - Set a bounty for player head.
+243;(commands) '/targets' - See list of online targets for hitman.
+244;(commands) '/put <amount>' - Deposit amount of money in bank.
+245;(commands) '/get <amount>' - Withdraw amount of money from bank.
+246;(commands) '/races' - Show a list of all races currently running.
+247;(commands) '/race join <raceid>' - Join race, raceid is got from '/races' command
+248;(commands) '/race quit' - Leave current race.
+249;(commands) '/houseinfo' - Shows current house info.
+250;(commands) '/housebuy' - Buys current house.
+251;(commands) '/housesell' - Sells current house.
+252;(commands) '/setbuyout' - Change the current house buyout price.
+253;(commands) '/changerent' - Set house rentable or unrentable.
+254;(commands) '/setrentcost' - Change the current house rent cost.
+255;(commands) '/rent' - Rent current house.
+256;(commands) '/unrent' - Unrent current house.
+257;(commands) '/showhouse' - Set checkpoint near your house
+258;(commands) '/showrent' - Set checkpoint near your rented house.
+259;(commands) '/enter' - Enter in building.
+260;(commands) '/exit' - Exit from building.
+261;(commands) '/restore' - Restore HP and armor in house (only if owner bought this upgrade, only at house).
+262;(commands) '/guns' - Receive guns (only if House has this bonus, only at house)
+263;(commands) '/myhouse' - Shows info about your house.
+264;(commands) '/myrent' - Shows info about your rented house.
+265;(commands) '/buy' - Buy item in current business
+266;(commands) '/drink' - Use EnergyDrink to restore your health
+267;(commands) '/bbuy' - Buy current business.
+268;(commands) ''/bsetprice'' - Set price of items in current business.
+269;(commands) '/bsell' - Sell current business.
+270;(commands) '/bcollect' - Collect money from current business.
+271;(commands) '/blist' - Show a list of your businesses.
+272;(commands) '/beacop' - No comments :)
+273;(commands) '/wanteds' - Shows list of criminals.
+274;(commands) '/ar' - Arrest closest criminal (works only 7 meters).
+275;(commands) '/nocop' - Use if you don't want to be a cop.
+276;(commands) '@[text]' - To talk in job chat, work only if you have job.
+277;(commands) '/heal' - Heal closest player.
+278;(commands) '/nomedic' - Use if you don't want to be a medic.
+279;(radio) %s: %s
+280;(commands) '/wantmedics' - To see who wants medic help.
+281;(commands) '/callmedics' - Use if you need medic help.
+282;(commands) '/gasloc' - Set checkpoint in nearest gas station.
+283;(commands) '/boxfight [playerid/partofname/name]' - Offer a Boxing Fight to player.
+284;(commands) '/boxcancel' - Disagree Boxing Fight offer.
+285;(commands) '/boxaccept' - Accept Boxing Fight offer.
+286;(commands) '/boxstats' - See total Boxing stat.
+287;(commands) '/report [text]' - Report about something to moderators
+288;(commands) '/me [action]' - Emote your action
+289;(commands) '/gang Create <colour> <tag> <gangname>' - Create a new gang (Cost $50,000).
+290;(commands) '/gang colours' - Show a list of colours.
+291;(commands) '/g <message>' - Send gang message.
+292;(commands) '/gang Quit' - Leave/Quit your current gang.
+293;(commands) '/gang Join' - Join/Accept an invitation to join a gang
+294;(commands) '/gang Stats' - Show stat info about your gang.
+295;(commands) '/gang Members' - Show member info about your gang.
+296;(commands) '/gang Invite <playername>' - Invite a player to join your gang. (Gangleader only).
+297;(commands) '/gang Kick <playername>' - Kick a player from your gang. (Gangleader only).
+298;(commands) '/gang Colour <colour>' - Set your gangs colour. (Gangleader only)(cost: $10,000)
+299;(commands) '/gang Bankget <amount>' - Get money from gang bank
+300;(commands) '/gang Bankput <amount>' - Put money to gang bank
+301;(house/rent help) If you want a house, but don't have much money - you may rent it!
+302;(house/rent help) House can be rented only if he rentable (this must be set by Owner)
+303;(house/rent help) When you rent a house, you will pay Rent Cost for every hour. Rent cost set by Owner
+304;(house/rent help) If you can't pay, you will be kicked from house.
+305;(house/rent help) And if you want to restore your health/armor, get in house and type '/restore' (works only if house upgraded)
+306;(drinks help) You may buy Energy Drinks in 24/7 shops. With drinks you can restore your health.
+307;(drinks help) To buy drink, come to the 24/7 and type '/buy'.
+308;(drinks help) To drink, use '/drink'. Yoy cannot drink in vehicle.
+309;(drinks help) And remember - energy drinks have a %s cooldown.
+310;MultiGTA is based on Grand Theft Online 0.5.9 Revision 82 from SVN. Thanks to:
+311;DracoBlue and GTAT Dev Team (especially Elyks and DracoBlue) for: Cop job (idea), armdealers (idea), businesses (idea), hay,
+312;multikill, carlock, duel, phone, weather, hotspots, pickups streamer, reconnect protection, weapons stat (idea), coords.
+313;Pixels^ and DarkByte for anti-bot. Boylett for anti-swear. Lukor for money anti-cheat. Novocaine for Derby
+314;d.wine for temp-ban system. Fear for boxing, school (idea) and lottery. Zamaroht and jtg91 for cop bribes. Kapyl for MIC.
+315;Switch for races and idea. BetaMaster for Wang Exports, races, spawn place and selection (ideas), anti-spoofkill and taxi driver job.
+316;Lucifer for anti-freeze, anti-healthcheats. Y-Less for some functions. Rafelder for map icons streamer. ProRail for MOTD.
+317;All PEN1 modifications developers (especially Astro) for houses, deathmatches, bets, votekick. Sneaky for anti-name-crash
+318;All SA-MP community for car spawns and spawn selection locations. BIG thanks to Iain Gilbert - creator of original GTO!
+319;And, of course, REALLY BIG thanks for SA-MP developers for that great multiplayer mod! 
+320;HELP
+321;Select
+322;Events
+323;DMs
+324;Gangs
+325;Houses/Rent
+326;(business help) MultiGTA got several businesses types. Let me tell you something about them.
+327;Boxing
+328;Businesses
+329;Criminal
+330;Drinks
+331;Hotwire
+332;CashBox
+333;Commands
+334;Credits
+335;(help) '/mod help' - show available moderator commands
+336;Total playing time: %s
+337;Total playing time in online: %s	
+338;%s - Player Stats
+339;Level: %d - XP: %d - Rank: %s
+340;Hours: %d - Minutes: 0%d - Seconds: 0%d
+341;Hours: %d - Minutes: 0%d - Seconds: %d
+342;DMs played: %d - Won DMs: %d - Ratio: %s.
+343;Gang: %s - Gangmate kills: %d
+344;Hours: %d - Minutes: %d - Seconds: 0%d
+345;Total money: $%d - Bounty for your head: $%d
+346;Hours: %d - Minutes: %d - Seconds: %d
+347;Kills: %d - Deaths: %d - Suicides: %d - Ratio: %s.
+348;Time of current session: %s - Total playing time: %s.
+349;(error) Bad weatherid. Usage: '/mod weather [weatherid]', Weather between 0 and 50
+350;Drinks in pocket: %d - Drinks used: %d
+351;Weather changed.
+352;Fuel cans: %d - Clothes buyed: %d - Food eaten: %d
+353;Login Timeout
+354;Spawn Kills: %d - Deaths on spawn: %d
+355;(account) If you are not login in next %d seconds, you will be auto-kicked!
+356;Races played: %d Won races: %d - Ratio: %s.
+357;not set
+358;(commands) '/spawnset [house/rent/job/random]' - change spawn place
+359;(error) You may select one of this places: 'house', 'rent', 'job' or 'random'
+360;Cars sold in HotWires: %d - CashBoxes cracked: %d
+361;Player don't have a job.
+362;Player own a house. Times was at house: %d.
+363;Player rent a house. Times was at house: %d.
+364;Times was at house: %d
+365;Wanted Level: %d - Crimes points: %d - Times got busted: %d
+366;Taxi drivers don't have spawns. 
+367;Spawn selected. You will respawn near job place.
+368;Boxing skill: %d - Wins in box fights: %d - Loses in box fights: %d
+369;Spawn selected. You will respawn near your house.
+370;Spawn selected. You will respawn near your rented house.
+371;Jail time left: %d
+372;Mute time left: %d
+373;Warns: %d
+374;Spawn selected. You will respawn at random spawn.
+375;Cop skill: %d - Cop level: %d
+376;(commands) '/weaponstat [kills/deaths]' - see weapons stat
+377;Kills stat:
+378;Vehicle: %d - Drown: %d - Collision: %d_
+379;Heal %d players
+380;(level status) Player Level Information
+381;(level status) Current Level: %d
+382;(level status) Current XP: %d
+383;(level status) XP to next level: %d 
+384;(error) USAGE: '/givecash [playerid/partofname/name] [amount]'
+385;(error) You cannot send money to yourself!
+386;(money) You have sent $%d to %s (ID: %d).
+387;(money) You have recieved $%d from %s (ID: %d).
+388;(error) Invalid transaction amount.
+389;(error) %d is not an active player.
+390;(error) USAGE: '/bounty [playerid/partofname/name] [amount]'
+391;(error) You cannot set a bounty for yourself head!
+392;(money) You set a $%d bounty for %s head!
+393;(bounty) %s set a bounty for $%d on your head!
+394;(error) Not enought money.
+395;(error) %d is not an active player.
+396;(hitman) %d) %s. Price for killing: $%d
+397;(hitman) No targets online
+398;(error) USAGE: '/report [text]'
+399;(error) You and receiver need to be at 5 meters distance
+400;(report) from %s: %s
+401;(error) Sorry! No moderators online
+402;(report) Report send to moderators.
+403;Money desync. (Lagg or Cheat)
+404;(gambling) Warning: Maximum gambling win: $%d.
+405;(gambling) You have won $%d.
+406;(security) You have won too much money in this casino. The bouncer asks you to leave.
+407;Won too much in casino.
+408;Health desync. (lagg or cheat)
+409;~r~Connection Lost.
+410;(security) Not kicked for '%s' due to privilegies.
+411;(security) You have been kicked from the server by %s. Reason: %s
+412;(security) %s has been kicked by %s. Reason: %s
+413;(hotspot) Activity in %s! Get there and get some experience!
+414;(security) You have been banned from the server on %d hours. Reason: %s
+415;(security) %s has been banned on %d hours. Reason: %s
+416;(warning) This account has been locked and cannot be accessed. Please contact an admin.
+417;Banned from this server
+418;(login) !!WARNING!! You are not logged in, player stats will not be saved.
+419;(login) To create an account use '/register <password>'.
+420;(login) To log-in to an existing account use '/login <password>'.
+421;Invalid character in playername.
+422;Civilian kill
+423;(hitman) You kill the bounty target and receive $%d
+424;(xp) You loose %d XP.
+425;(xp) You gain %d XP.
+426;(xp) XP limit reached!
+427;+%d XP
+428;%d XP
+429;(level) You are back to level %d
+430;(level) You are now level %d
+431;(weapons) New weapons available for buy:
+432;(weapons) %s for $%d.
+433;(money) You have max money.
+434;(money) You have no money.
+435;(money) You recieve $%d.
+436;(money) You lost $%d.
+437;(error) Player status already exists.
+438;(cop) Welcome back to job! Rank: Cop
+439;(cop) Welcome back to job! Rank: Good Cop
+440;(cop) Welcome back to job! Rank: Street Patrol
+441;(cop) Welcome back to job! Rank: Officer
+442;(cop) Welcome back to job! Rank: Swat Member
+443;(cop) Welcome back to job! Rank: FBI Agent
+444;(medic) Welcome back to job, medic!
+445;~w~Welcome to ~n~~r~Federal Prison!
+446;(jail) You jailed on %s because %s
+447;~w~Welcome to ~n~~r~Freedom!
+448;(warns) Warnings limit reached! Ban from this server!
+449;(warns) Receive %d more warns and you will be banned!
+450;*** %s has joined the server.
+451;*** %s has left the server. (Timeout)
+452;*** %s has left the server. (Leave)
+453;*** %s has left the server. (Kicked)
+454;*** %s drowned.
+455;*** %s died.
+456;*** %s was killed with fists by %s.
+457;*** %s was killed with brassknuckle by %s.
+458;*** %s was killed with golf club by %s.
+459;*** %s was killed with nite stick by %s.
+460;*** %s was killed with knife by %s.
+461;*** %s was killed with baseball bat by %s.
+462;*** %s was killed with shovel by %s.
+463;*** %s was killed with pool cue by %s.
+464;*** %s was killed with katana by %s.
+465;*** %s was killed with chainsaw by %s.
+466;*** %s was killed with double ender dildo by %s.
+467;*** %s was killed with white dildo by %s.
+468;*** %s was killed with vibrator by %s.
+469;*** %s was killed with flowers by %s.
+470;*** %s was killed with cane by %s.
+471;*** %s was killed with grenade by %s.
+472;*** %s was killed with tear gas grenade by %s.
+473;*** %s was killed with molotov coctail by %s.
+474;*** %s was killed with rocket by %s.
+475;*** %s was killed with bomb by %s.
+476;*** %s was killed with colt 45 by %s.
+477;*** %s was killed with silenced pistol by %s.
+478;*** %s was killed with Desert Eagle by %s.
+479;*** %s was killed with shotgun by %s.
+480;*** %s was killed with sawn-off shotgun by %s.
+481;*** %s was killed with SPAS12 by %s.
+482;*** %s was killed with UZI by %s.
+483;*** %s was killed with MP5 by %s.
+484;*** %s was killed with AK47 by %s.
+485;*** %s was killed with M4 by %s.
+486;*** %s was killed with TEC9 by %s.
+487;*** %s was killed with country rifle by %s.
+488;*** %s was killed with sniper rifle by %s.
+489;*** %s was killed with rocket launcher by %s.
+490;*** %s was killed with heat seeking rocket launcher by %s.
+491;*** %s was killed with flamethrower by %s.
+492;*** %s was killed with minigun by %s.
+493;*** %s was killed with satchel by %s.
+494;*** %s was killed with spray can by %s.
+495;*** %s was killed with fire extinguisher by %s.
+496;*** %s was killed with vehicle hit by %s.
+497;(weapon list) Owned weapons:
+498;Stealing a cashbox
+499;~w~Welcome to ~n~~g~%s
+500;(anti drive-by) Don't drive-by abuse! It's supposed to destroy cars only!
+501;Drive-by Abuse
+502;(anti-flame) Stop flaming or you will be punished!
+503;Flaming
+504;Flood
+505;(warning) You have been idle for 2 minutes.
+506;(warning) If you dont move in the next 10 sec you will be kicked.
+507;(warning) If you dont move in the next 10 sec you will be banned.
+508;Idle for too long
+509;(anti-highping) You have been kicked for too high ping for a long time
+510;Too high ping
+511;(anti-spawnkill) Don't spawn kill! Move away from spawnpoint.
+512;Spawn Killing
+513;You need to login before spawn! If you are not registered - register.
+514;Weapon Cheat - Not allowed weapon - %s
+515;(race) '%s' starts in %d seconds.
+516;~w~GO!
+517;(race) %s started!
+518;(error) You are currently on another quest. Leave it before joining another.
+519;(error) Bad raceid. Usage: '/race join <raceid>'
+520;(error) This race is currently in progress, you cannot join.
+521;(error) You cannot join that race at this time.
+522;(error) You cannot join that race - you are a cop!
+523;(error) You are not currently in a race.
+524;(error) You need $%d to enter this race.
+525;(race) %s joined the '%s'. (Racers: %d)
+526;~g~Race Entered.
+527;(race) Entered. Starts in %d seconds.
+528;(race) WARNING! You need vehicle to race!
+529;(race) WARNING! You are not driver and can't race!
+530;(race) WARNING! This vehicle is not allowed in this race.
+531;(race) Allowed vehicles: 
+532;(race) %s has left the race '%s'. (Racers:%d)
+533;~r~Race Aborted.
+534;(race) You left the race.
+535;Available races: 
+536;(race) '%s' (id: %d). Players needed: %d. Start Location: %s. Race time: %s.
+537;Kill player waiting for event
+538;(error) Sorry, but vehicles for race not found on server
+539;(race) There are no available races at this time.
+540;(race) Abort. You are not at startline.
+541;Race '%s' did not run. Not enough players.
+542;(race) '%s' starting.
+543;(race) Aborted. You need a car to race.
+544;(race) Aborted. You need to be the driver to race!
+545;~r~Race Failed!
+546;(race) You failed. Time left!
+547;(race) You have finished '%s'. Position: %s Time: %s.
+548;(race) %s has won '%s'! Time: %s.
+549;(race) You have finished '%s'. Position: %s. Time: %s.
+550;(race) %s finished %s in '%s'. Time: %s.
+551;(race) You have finished '%s'. Position: %s. Time: %s.
+552;(race) %s finished %s in '%s'. Time: %s.
+553;(race) You have finished '%s'. Position: %s. Time: %s.
+554;(race) %s has set a new record for '%s'! Time: %s. Old record: %s.
+555;(race) '%s' (raceid:%d) starts in %s. Location: %s.
+556;(race) Entry Fee: $%d. Minimum racers: %d. Race time: %s.
+557;(race) Entry Fee: $%d. Race time: %s.
+558;~w~Race:~n~~y~Prepare
+559;(error) This vehicle is not allowed in this race.
+560;(race) This is startline. Wait here for the race to start.
+561;(error) You need to be a registered player to do this
+562;(cop) This is a Cop Job place. If you don't want to be a cop - type '/nocop'
+563;(cop) This is a Cop Job place. Want to be a cop? Type '/beacop'
+564;(criminals) %d) %s. Crimes points: %d. Wanted level: %d
+565;(criminals) No criminals online
+566;(error) You are not a cop!
+567;(error) This is a wrong place to use this command
+568;(cop) OK, you are no more a cop!
+569;(cop) %s no more a cop.
+570;(error) You are in gang and cannot be a cop!
+571;(error) You are already a cop!
+572;(error) You are busy!
+573;(error) You can't be a cop - you are criminal!
+574;(cop) Welcome to job! Rank: Cop.
+575;(cop) Welcome to job! Rank: Good cop.
+576;(cop) Welcome to job! Rank: Street Patrol
+577;(cop) Welcome to job! Rank: Police Officer
+578;(cop) Welcome to job! Rank: Swat Member
+579;(cop) Welcome to job! Rank: FBI Agent
+580;~r~Job:~n~~y~Police
+581;(cop) Get rid of the bad criminals right now!
+582;(cop) You may checks criminals list. Type '/wanteds' to do this.
+583;(cop) %s is a cop now. Be careful, criminals.
+584;(radio) %s: %s, over
+585;(error) You are not on foot!
+586;(error) No players Connected
+587;(error) No player close enough to arrest
+588;(error) This is not a criminal!
+589;(error) Criminal in vehicle!
+590;(error) This criminal is already dead :)
+591;(error) This player in skydive and can't be arrested!
+592;(error) Can't arrest yourself! :)
+593;(criminal) Arrested!
+594;YOU ARE ~n~~r~ARRESTED!
+595;you are arrested!
+596;(cop) Good job! You arrested criminal!
+597;~R~Criminal Arrested!
+598;(criminal news) Cop %s arrest criminal %s
+599;(criminal news) Good cop %s arrest criminal %s
+600;(criminal news) Street Patroller %s arrest criminal %s
+601;(criminal news) Police Officer %s arrest criminal %s
+602;(criminal news) SWAT Member %s arrest criminal %s
+603;(criminal news) FBI Agent %s arrest criminal %s
+604;(error) This criminal is not wounded and cannot be arrested!
+605;(criminal news) Cop %s killed criminal %s
+606;(criminal news) Good cop %s killed criminal %s
+607;(criminal news) Street Patroller %s killed criminal %s
+608;(criminal news) Police Officer %s killed criminal %s
+609;(criminal news) SWAT Member %s killed criminal %s
+610;(criminal news) FBI Agent %s killed criminal %s
+611;(cop) You killed a player without crimes and lost money and XP!
+612;(cop) %s kill player without crimes!
+613;(criminal news) Cop %s died
+614;(criminal news) Good Cop %s died
+615;(criminal news) Street Patroller %s died
+616;(criminal news) Police Officer %s died
+617;(criminal news) Swat Member %s died
+618;(criminal news) FBI Agent %s died
+619;(criminal) You kill a cop! This is a big mistake!!!!!
+620;Cop Kill (%s)
+621;Good Cop Kill (%s)
+622;Street Patroller Kill (%s)
+623;Police Officer Kill (%s)
+624;Swat Member Kill (%s)
+625;FBI Agent Kill (%s)
+626;(error) Medic can't use cop cars!
+627;Stealing a police vehicle
+628;Steal cashbox
+629;(cop) Your cop level is now 1, you will earn more money
+630;(cop) Your cop level is now 2, you will earn more money
+631;(cop) Your cop level is now 3, you will earn more money
+632;(cop) Your cop level is now 4, you will earn more money
+633;(cop) Your cop level is now 5, you will earn more money. And this is MAX LEVEL!
+634;(medic) This is a Medic Job place. If you don't want to be a medic - type '/nomedic'
+635;(medic) This is a Medic Job place. Want to be a medic? Type '/beamedic'
+636;(error) You are not a medic!
+637;(medic) %d) %s. Location: %s 
+638;(medic) Nobody don't want your help :(
+639;(error) This is a wrong place to use this command
+640;(medic) OK, you are not a medic!
+641;(medic) %s no more a medic.
+642;(error) You are medic!
+643;(error) You already call medic!
+644;(error) You already have enought health!
+645;(medic) OK, you call medics!
+646;(medic call) %s want medics help! He is in %s
+647;(error) You are already a medic!
+648;(error) You are busy!
+649;(error) You can't be a medic - you are criminal!
+650;~r~Job:~n~~y~Medic
+651;(medic) Find players who need your help!
+652;(medic) You may checks players who need help list. Type '/wantmedics' to do this.
+653;(medic) %s is a medic now. Call him with '/callmedics'
+654;(radio) %s: %s
+655;(error) You are not on foot!
+656;(error) No players Connected
+657;(medic) No player close enough. But... I can heal myself!
+658;(error) Too late! This player is already dead!
+659;(error) This player in deathmatch and cannot be healed!
+660;(error) Wait 30 seconds before heal players again!
+661;(medic) You healed! Say thanks to %s
+662;(medic) You heal %s! Total heals: %d.
+663;(error) This player don't need medic help!
+664;(medic) You killed another player! You are no more a medic!
+665;(medic) %s kill another player and no more a medic!
+666;(medic) Medic %s died.
+667;Medic kill
+668;(criminal) You steal a medic vehicle!
+669;Stealing an ambulance
+670;(business) Components: %d/%d
+671;(business) You can deliver components to business
+672;(business) Commands are '/load', '/buycomp', '/putcomp'
+673;(error) You are not in a vehicle!
+674;(error) You are not in a truck!
+675;(error) You are not in a components buying place!
+676;(delivery truck) Components: %d/%d
+677;(delivery truck) You bought %d components For $%d
+678;(error) You cant afford %d components at $%d
+679;(error) Truck is empty!
+680;(error) Sorry, we don't have enough money to pay for your job. Sell components to another shop
+681;You put %d components in your Clothes Shop
+682;You sell %d components to Clothes Shop
+683;We create %d costumes from this components
+684;You put %d components in your Drink Vendor
+685;You sell %d components to Drink Vendor
+686;We create %d drinks from this components
+687;You put %d components in your Mine Shop
+688;You sell %d components to Mine Shop
+689;We create %d mines from this components
+690;You put %d components in your Dinner
+691;You sell %d components to Dinner
+692;We create %d meals from this components
+693;You put %d components in your Fuel Station
+694;You sell %d components to Fuel Station
+695;We create %d fuel canisters from this components
+696;You put %d components in your Skydive Place
+697;You sell %d components to Skydive Place
+698;We create %d parachutes from this components
+699;You put %d components in your ArmDealer
+700;You sell %d components to ArmDealer
+701;We create %d weapon packs from this components
+702;We create %d weapons from this components
+703;%d) Clothes Shop %s. Vault: $%d. Clothes Price: $%d. Components: %d. Items in stock: %d
+704;%d) Energy drink vendor %s. Vault: $%d. Drink Price: $%d. Components: %d. Items in stock: %d
+705;%d) Mine Shop %s. Vault: $%d. Mine Price: $%d. Components: %d. Items in stock: %d
+706;%d) %s. Vault: $%d. Price for one percent of fuel: $%d. Components: %d. Items in stock: %d
+707;%d) %s. Vault: $%d. Components: %d. Items in stock: %d
+708;%d) %s. Vault: $%d. Components: %d. Items in stock: %d
+709;%d) %s. Vault: $%d. Components: %d. Items in stock: %d
+710;(business info) You don't own any business
+711;(error) You are not in business!
+712;~r~Sorry,~n~Out Of Stock
+713;(clothes) You are at an Clothes Shop. If you want to loose wanted level, you need to buy new clothes.
+714;(clothes) Type '/buy' to do this. Clothes cost: %d
+715;(clothes shop) You are a owner of this shop. Clothes is free for you!
+716;(clothes shop) You also can get money from clothes shop. Current money: %d
+717;(clothes shop) You can buy this Clothes shop for $%d. Required level: %d. Use '/bbuy' to do this.
+718;(error) You are too poor to buy new clothes
+719;(error) You don't need to buy new clothes!
+720;(error) Please wait %d seconds before change clothes again!
+721;(clothes) OK, you buy new clothes.
+722;(clothes) OK, new clothes is free for you!
+723;(ALL UNITS) %s is not a criminal now.
+724;(error) You already own this Clothes Shop
+725;(error) You do not own this shop
+726;(clothes shop) You have bought the %s
+727;(clothes shop) Now you can use '/bcollect' to collect money from shop and
+728;(clothes shop) ''/bsetprice'' to set price of clothes. Don't forget about '/blist'.
+729;(clothes shop) If you don't need this shop, you may sell it with '/bsell'.
+730;(error) You don't have enough money to buy this Clothes Shop
+731;(error) You need to be at least level %d to buy this shop
+732;(error) Clothes shop info not available yet, please report to an admin
+733;(error) The vault of this shop is empty
+734;(clothes shop) The vault is emptied
+735;(clothes shop) You have sold the %s
+736;(error) Wrong price selected!
+737;(error) Too high price! Max price is: $%d
+738;(clothes shop) You have set the clothes cost for %s. Price is: $%d
+739;(energy drinks) Hi! Want to buy Energy Drink for $%d? Type '/buy' to do this!
+740;(energy drinks vendor) You are a owner of this vendor. Energy Drinks is free for you!
+741;(energy drinks vendor) You also can get money from vendor. Current money: $%d
+742;(energy drinks vendor) You can buy this Energy Drinks vendor for $%d. Required level: %d. Use '/bbuy' to do this.
+743;(error) You have no Energy Drinks!
+744;(error) Please wait %d seconds before drink again!
+745;(error) You can't drink when you driving!
+746;(error) You don't need energy drinks.
+747;(energy drinks) Yeah! This is good!
+748;(error) You are too poor to buy energy drink
+749;(energy drinks) OK, you buy energy drink! Total drinks: %d.
+750;(energy drinks) OK, energy drinks is free for you! Total drinks: %d.
+751;(error) You already own this Energy Drink vendor
+752;(error) You do not own this vendor
+753;(energy drinks vendor) You have bought the %s
+754;(energy drinks vendor) Now you can use '/bcollect' to collect money from vendor and
+755;(energy drinks vendor) ''/bsetprice'' to set price of drink. Don't forget about '/blist'.
+756;(energy drinks vendor) If you don't need this vendor, you may sell it with'/bsell'.
+757;(error) You don't have enough money to buy this Energy Drink vendor
+758;(error) You need to be at least level %d to buy this vendor
+759;(error) Energy Drink Vendor info not available yet, please report to an admin
+760;(error) The vault of this vendor is empty
+761;(energy drinks vendor) The vault is emptied
+762;(energy drinks vendor) You have sold the %s
+763;(error) Wrong price selected!
+764;(error) Too high price! Max price is: $%d
+765;(energy drinks vendor) You have set the drink price for %s. Price is: $%d
+766;(food) Hi! Want to buy some food for $%d? Type'/buy' to do this!
+767;(dinner) You are a owner of this Dinner. Food is free for you!
+768;(dinner) You also can get money from Dinner. Current money: $%d
+769;(dinner) You can buy this Dinner for $%d. Required level: %d. Use'/bbuy' to do this.
+770;(error) You are too poor to buy food
+771;(error) You have a full health for your level!
+772;(food) OK, you buy food!
+773;(food) OK, food is free for you!
+774;(error) You already own this Dinner Business
+775;(error) You do not own this dinner
+776;(dinner) You have bought the %s
+777;(dinner) Now you can use '/bcollect' to collect money from dinner and
+778;(dinner) '/bsetprice' to set price of food. Don't forget about'/blist'.
+779;(dinner) If you don't need this dinner, you may sell it with'/bsell'.
+780;(error) You don't have enough money to buy this Dinner Business
+781;(error) You need to be at least level %d to buy this dinner
+782;(error) Dinner info not available yet, please report to an admin
+783;(error) The vault of this dinner is empty
+784;(dinner) The vault is emptied
+785;(dinner) You have sold the %s
+786;(error) Wrong price selected!
+787;(error) Too high price! Max price is: $%d
+788;(dinner) You have set the food price for %s. Price is: $%d
+789;(fuel) Hi! Want to buy fuel canister for $%d? Type'/buy' to do this!
+790;(fuel station) You are a owner of this fuel station. Canister is free for you!
+791;(fuel station) You also can get money from business. Current money: %d
+792;(error) You are too poor to buy fuel canister'
+793;(fuel) OK, you buy fuel canister! Total canisters: %d.
+794;(fuel) OK, fuel canisters is free for you! Total canisters: %d.
+795;(error) You already own this fuel station
+796;(fuel station) You have bought the %s
+797;(fuel station) Now you can use '/bcollect' to collect money from station and '/bsetprice' 
+798;(fuel station) to set price of fuel cost or canister. Don't forget about '/blist' to sell list of your stations.
+799;(fuel station) If you don't need fuel station, you may sell it with'/bsell'.
+800;(error) You don't have enough money to buy this fuel station
+801;(error) You need to be at least level %d to buy this station
+802;(error) Fuel station info not available yet, please report to an admin
+803;(error) You do not own this station
+804;(fuel station)You have sold the %s
+805;(fuel station) The vault is emptied
+806;(error) The vault of this station is empty
+807;(error) Wrong price selected!
+808;(error) Too high price! Max price is: $%d
+809;(fuel station) You have set the fuel price for %s. Price is: $%d
+810;(fuel station) You have set the fuel canister price for %s. Price is: $%d
+811;(mines) Hi! Want to set mine on your vehicle for $%d? Type'/buy' to do this!
+812;(mine shop) You are a owner of this shop. Mines is free for you!
+813;(mine shop) You also can get money from shop. Current money: %d
+814;(mine shop) You can buy this Mine shop for $%d. Required level: %d. Use'/bbuy' to do this.
+815;(error) You are not in vehicle!
+816;(error) Your vehicle have no mines!
+817;(mines) Mine planted!
+818;(error) You are too poor to set mine on your vehicle
+819;(vendor) You need to be the vehicle driver.
+820;(vendor) Sorry, your vehicle got too much mines installed already.
+821;(vendor) Sorry, I cant install a mine on that vehicle.
+822;(mines) OK, mine planted on your vehicle! Use '/drop' to drop mine.
+823;(mines) OK, we set mine for free for you!
+824;(error) You do not own this shop
+825;(mine shop) You have sold the %s
+826;(mine shop) The vault is emptied
+827;(error) The vault of this shop is empty
+828;(error) You already own this Mine Shop
+829;(mine shop) You have bought the %s
+830;(mine shop) Now you can use '/bcollect' to collect money from shop and
+831;(mine shop) '/bsetprice' to set mine price. Don't forget about'/blist'.
+832;(mine shop) If you don't need this shop, you may sell it with'/bsell'.
+833;(error) You don't have enough money to buy this Mine Shop
+834;(error) You need to be at least level %d to buy this shop
+835;(error) Wrong price selected!
+836;(error) Too high price! Max price is: $%d
+837;(mine shop) You have set the mine price for %s. Price is: $%d
+838;(error) Mine Shop info not available yet, please report to an admin
+839;(ArmsDealer) You are at an Armdealer. You can buy weapon here.
+840;(ArmsDealer) You may buy only one weapon in one armdealer. Current weapon: %s
+841;(ArmsDealer) Now you may buy Emergency Weapon Pack using'/buy'. It costs $%d.
+842;(ArmsDealer) This pack contains MicroUzi, Shotgun and Pistol. You need to be at least level 5 to buy pack
+843;(ArmsDealer) To buy a weapon use'/buy'. It costs $%d
+844;(ArmsDealer) This weapon need at least level %d to be buyed.
+845;(ArmsDealer Business) You are a owner of this ArmDealer. Weapon is free for you!
+846;(ArmsDealer Business) You also can get money from ArmDealer. Current money: %d
+847;(ArmsDealer Business) You can buy this ArmDealer for $%d. Required level: %d. Use'/bbuy' to do this.
+848;(error) Invalid weaponid. Please report to admin.
+849;(error) Invalid bullets amount. Report to admin, please
+850;(error) You cannot buy that weapon: '%s'
+851;(error) You must be at an ArmDealer to buy weapons.
+852;(error) You cannot buy that weapon: '%s'
+853;(error) You are too poor. Needed $%d to make that purchase.
+854;(ArmsDealer) This is a free for you!
+855;(weapons) You bought weapon '%s'. Cost: $%d.
+856;(weapons) You bought weapon '%s' with %d bullets. Cost: $%d.
+857;(error) You already own this ArmDealer
+858;(ArmsDealer) You have bought the %s
+859;(ArmsDealer) Now you can use '/bcollect' to collect money from ArmsDealer.
+860;(ArmsDealer) Don't forget about'/blist'.
+861;(error) You don't have enough money to buy this ArmsDealer
+862;(error) You need to be at least level %d to buy this ArmDealer
+863;(error) ArmsDealer info not available yet, please report to an admin
+864;(error) You do not own this vendor
+865;(ArmsDealer) The vault is emptied
+866;(error) The vault of this vendor is empty
+867;(ArmsDealer) You have sold the %s
+868;(error) Not enought money!
+869;(error) You need to be at least level 5 to buy weapon pack!
+870;(ArmsDealer) You buy Emergency Weapon Pack
+871;(SkyDive) Hi! Want to do really good skydive for $%d? Type'/buy' to do this!
+872;(skydive business) You are a owner of this Skydive Place. Skydive is free for you!
+873;(skydive business) You also can get money from Skydive Place. Current money: %d
+874;(skydive business) You can buy this Skydive Place for $%d. Required level: %d. Use'/bbuy' to do this.
+875;(error) You are too poor to buy Skydive Place
+876;(SkyDive) OK, get ready to skydive!
+877;(error) You do not own this Skydive Place
+878;(skydive business) You have sold the %s
+879;(skydive business) The vault is emptied
+880;(error) The vault of this Skydive Place is empty
+881;(error) Skydive Place info not available yet, please report to an admin
+882;(error) You already own this Skydive Place
+883;(skydive business) You have bought the %s
+884;(skydive business) Now you can use '/bcollect' to collect money from Skydive Place and
+885;(skydive business) '/bsetprice' to set cost of skydive. Don't forget about'/blist'.
+886;(skydive business) If you don't need this Skydive Place, you may sell it with'/bsell'.
+887;(error) You don't have enough money to buy this Skydive Place
+888;(error) You need to be at least level %d to buy this Skydive Place
+889;(error) Wrong cost selected!
+890;(error) Too high price! Max price is: $%d
+891;(skydive business) You have set the skydive cost for %s. Cost is: $%d
+892;~W~%d
+893;~r~%d
+894;(SkyDive) GO GO GO!
+895;(gangchat) %s: %s
+896;(error) You must login to use gang commands
+897;(error) You are not in a gang.
+898;(error) You must be at a bank to get money from gang bank.
+899;(error) USAGE: '/gang bankget <amount>'
+900;(error) No money on the gang account!
+901;(error) You want too much money!
+902;(gangbank) $%d withdrawn. Current balance: $%d.
+903;(error) USAGE: '/gang bankput <amount>'
+904;(error) You want to put too much money!
+905;(gangbank) $%d deposited. Current balance: $%d.
+906;(error) You must be the gang leader to use this command.
+907;Exit
+908;Taxi
+909;Account closed
+910;(teleport) You teleported to '%s' (ID: %d)
+911;(gang help) Gang Commands:
+912;(colour) Gang Colours:
+913;(colour) '%s'
+914;'%s' Gang Stats:
+915;Gang Tag: %s
+916;Gang Kills: %d
+917;Gang Score: %d
+918;Online Members Count: %d
+919;'%s' Gang Members: 
+920;Online
+921;Name: %s. Status: %s. Level: %d.
+922;Offline
+923;Name: %s. Status: %s.
+924;(error) You are already in a gang.
+925;(error) You need $%d to create a gang.
+926;(error) BAD COLOUR: Usage: '/gang create <gangcolour> <gangtag> <gangname>'
+927;(help) Use '/gang colours' for more colour information.
+928;(error) BAD GANG TAG: Usage '/gang create <gangcolour> <gangtag> <gangname>'
+929;(error) BAD GANG TAG: Too long gangtag!
+930;(error) BAD GANG TAG: Too short gangtag!
+931;(error) BAD GANG NAME: Gang name must be at least 3 characters long.
+932;(error) BAD GANG NAME: Gang name must be at most 40 characters long. Please choose a shorter name.'
+933;(error) BAD GANG NAME. Please use only a-z,0-9 characters in gangname.
+934;(gang) Gang '%s' with tag '%s' created!
+935;(error) Gang Create Failed!
+936;(error) You have not been invited to join a gang!
+937;(error) Cops cannot join gangs!
+938;(error) That gang is already full. You cannot accept a join invitation from that gang.
+939;(gang) You have joined '%s' gang.
+940;(gang) %s has joined your gang.
+941;(error) Gang join failed. Make sure gang members are online.
+942;(error) You are a leader and cannot leave the gang!
+943;(help) But you may talk with admin about this.
+944;(error) Can't find such player or multiple users found. Usage: '/gang invite <playername/partofname>'
+945;(error) Bad playername or not registered.
+946;(error) Player is already in a gang.
+947;(gang) %s has invited you to join gang '%s'.
+948;(gang) You have invited %s to join '%s'.
+949;(error) Bad playername.
+950;(gang) %s kicked.
+951;(error) Gang member '%s' not found!
+952;(error) It costs $%d to use this command.
+953;(error) BAD COLOUR: type '/gang colours' for a list of available colours.
+954;(gang) Gang colour set! (cost: $%d)
+955;(gang) %s has been removed from the gang.
+956;(gang) You have been removed from the gang '%s'.
+957;(error) A gang by that name already exists.
+958;(gang) Member '%s' logged out.
+959;(gang) %s just killed a gang member %s!
+960;(gang) Member '%s' logged in.
+961;(gang) You are in gang '%s'. Online members: %d.
+962;(gang) You recieve %d gang experience from %s.
+963;(mod help) '/gotoplace' - teleport menu
+964;(error) No locations
+965;Command Spam
+966;Deaths stat:
+967;Wrong type. Types: kills/deaths. Usage: '/weaponstat type'
+968;(commands) '/bribe [playerid/name/partofname] [moneyamount]' - give bribe to cop
+969;(anti car-kill) Don't kill players on foot, when you are in vehicle!
+970;Car-Kill Abuse
+971;Money cheating
+972;.~n~.~n~~r~> ~y~Hotspot Kill!~r~<
+973;Auto-Security
+974;(deathmatch) Start in %d seconds.
+975;~w~GO!
+976;(commands) '/lock' - lock your vehicle
+977;(commands) '/unlock' - unlock your vehicle
+978;(deathmatch) '%s' (dmid:%d) starts in %d seconds in '%s'.
+979;(deathmatch) Entry Fee: $%d. Required Level: %d. Minimum players: %d.
+980;(deathmatch) Entry Fee: $%d. Required Level: %d.
+981;~w~Deathmatch:~n~~y~Prepare
+982;(deathmatch) You cannot join this deathmatch because you are busy!
+983;(error) Deathmatch Aborted. You are not at startline.
+984;(deathmatch) '%s' did not run. Not enough players
+985;(deathmatch) '%s' starting.
+986;(error) You need $%d to enter this deathmatch.
+987;(error) You must be at least level %d to enter this deathmatch.
+988;(deathmatch) %s has joined the deathmatch. (Players: %d/%d)
+989;(deathmatch) %s has joined the deathmatch. (Players: %d)
+990;~g~Deathmatch Entered.
+991;(deathmatch) Entered. Starts in %d seconds.
+992;(deathmatch) Entered!
+993;(deathmatch) Get to the startline! Deathmatch started!
+994;(deathmatch) Get to the startline, quick! Deathmatch is already active!
+995;(error) You cannot enter this deathmatch at this time.
+996;(deathmatch) %s has won in '%s'! Score: %d.
+997;(deathmatch) %s finished %s in '%s'. Score: %d.
+998;(deathmatch) %s finished %s in dm '%s'. Score: %d.
+999;(deathmatch) '%s' complete. Position: %s. Score: %d.
+1000;(deathmatch) %s has set a new record for '%s'! Score: %d. Old record: %d.
+1001;(deathmatch) %s has left the dm. (Players: %d/%d:)
+1002;(deathmatch) %s has left the dm. (Players: %d)
+1003;~r~Deathmatch Aborted.
+1004;(deathmatch) %s has left the deathmatch. (Players: %d)
+1005;(deathmatch) Deathmatch Left.
+1006;Available deathmatches: 
+1007;(event help) Another event type - cashbox.
+1008;Your gang already got full armour upgrade!
+1009;(deathmatch) '%s' (id: %d). Players needed: %d. Start Location: %s. Level: %d.
+1010;Gang upgraded: Armour. Current armour: %d
+1011;(deathmatch) %s is in 1st place with %d kills and %d deaths.
+1012;Invalid deathmatch weapon - %s in %s
+1013;~r~Deathmatch: ~n~~w~%s~n~Position: ~r~ %s~n~~w~Deaths:~r~ %d~n~~w~Kills:~r~ %d 
+1014;(deathmatch) Wait here! Deathmatch starts in %d seconds.
+1015;(deathmatch) This deathmatch '%s' is currently in progress. You can join this deathmatch by typing '/dm join'.
+1016;(deathmatch) You cannot join this deathmatch now.
+1017;(error) Only driver can do this!
+1018;(error) You are currently on another quest. Leave it before joining another.
+1019;(error) You are not in DM checkpoint
+1020;(error) You cannot join that deathmatch at this time.
+1021;(error) You cant join that deathmatch while it is running.
+1022;(error) You cannot join that DM - you are a cop!
+1023;(lock) Vehicle locked
+1024;Jetpack using
+1025;~r~Race: ~n~~w~%s~n~%d/%d 
+1026;(error) Names may not be numeric on this server!
+1027;(deathmatch) You returned to DM zone
+1028;(deathmatch) You are not ouside DM zone!
+1029;(error) You must be at a House entrance to use this command.
+1030;(error) House info not available yet, please report to an admin
+1031;(error) You need to be a registered player to do this
+1032;(error) You do not own this House
+1033;~w~This House is for sale~n~Cost: ~g~$%d~n~~w~To see more type '/houseinfo' 
+1034;~w~This House is owned by %s~n~You may buy this house for $%d 
+1035;~w~This house is owned by %s~n~You are a renter, but ~n~Can buy this house for $%d! 
+1036;~w~This House is owned by %s~n~Rent cost: $%d ~n~Type '/rent' to rent a house~n~You may buy this house for $%d 
+1037;~w~This is your house!~n~ Renter: %s~n~Description: %s.~n~To enter type '/enter' 
+1038;~w~This is your house!~n~Description: %s.~n~To enter type '/enter' 
+1039;(house info) Currently owned by: %s
+1040;(house info) Price: $%d
+1041;(house info) Description: %s
+1042;(house info) You may rent this house for: $%d
+1043;(house) Type '/housebuy' to buy this house
+1044;--------House Info--------
+1045;(house info) Currently not owned by anyone
+1046;(house info) You can buy this house for: $%d
+1047;(house info) Health restore: +%d percents
+1048;(house info) Health restore: no
+1049;(house info) Armor restore: +%d percents 
+1050;(house info) Armor restore: no
+1051;(house info) Weapon 1: %s
+1052;(house info) Weapon 2: %s
+1053;(house info) Weapon 3: %s
+1054;(error) You already have a house!
+1055;(error) You already own this house
+1056;(house) %s bought out your house
+1057;(house) You have bought the house
+1058;(error) You don't have enough money to buy this house
+1059;(error) You have no house!
+1060;(house) You have sold the house
+1061;(error) Bad buyout amount.
+1062;(house) Buyout succesfully increased to $%d
+1063;(house) Buyout succesfully decreased to $%d
+1064;(error) Bad rent amount.
+1065;(house rent) Rent cost succesfully increased to $%d
+1066;(house rent) Rent cost succesfully decreased to $%d
+1067;(house rent) %s change house rent price to $%d
+1068;(error) You can only buy this house!
+1069;(house rent) You want to rent your own house?
+1070;(error) You already rent a house!
+1071;(error) This house are not for rent!
+1072;(error) You already rent this house
+1073;(house rent) %s rent your house
+1074;(house rent) You have rent the house!
+1075;(error) You don't have enough money to rent this house
+1076;(error) You have no rented house!
+1077;(error) You don't rent this house!
+1078;(house rent) You have unrent house
+1079;(house rent) You make your house unrentable
+1080;(house rent) You make your house rentable and may use '/setrentcost' to set rent cost
+1081;(error) Some problems with house. Please report to admin!
+1082;(house) Your health restored! +%d percents.
+1083;(house) Your armor restored! +%d percents.
+1084;(error) You don't own and don't rent this house
+1085;(error) Wrong place to do this!
+1086;(error) Only owner can do this!
+1087;~y~Guns! Many guns! 
+1088;(house info) House in %s. Cost: $%d. Description: %s
+1089;(house info) Rentable. Rent cost: %d. Renter: %s
+1090;(house info) Not rentable.
+1091;(house info) Weapon 1: %s
+1092;(house info) Weapon 2: %s
+1093;(house info) Weapon 3: %s
+1094;(rent info) Health can be restored in this house (+%d percents).
+1095;(rent info) Armor can be restored in this house (+%d percents).
+1096;(error) You don't own any house
+1097;(rent info) House in %s. Cost: $%d. Description: %s
+1098;(rent info) Rent cost: %d. Owner: %s.
+1099;(rent info) Health can be restored in this house (+%d percents).
+1100;(rent info) Armor can be restored in this house (+%d percents).
+1101;(error) You don't rent any house
+1102;(house) Your house CP is activated!
+1103;(error) You are not renter!
+1104;(house) Your rented house CP is activated!
+1105;(house rent) Pay rent time! You pay $%d.
+1106;(house rent) Pay rent time! You receive $%d.
+1107;(house rent) You can't pay for rent and deleted from house!
+1108;This is rented house
+1109;(house rent) Welcome, renter! Type '/exit' to leave or '/restore' to restore health or/and armor (if upgraded)
+1110;Home,~n~Sweet Home 
+1111;(house) Welcome! Type '/exit' to leave. Type '/guns' to get guns. Type '/restore' to restore HP or/and armor (if upgraded)
+1112;Welcome back,~n~renter! 
+1113;Welcome back!
+1114;(error) Sorry, event already in progress.
+1115;(error) Sorry, can you give me your e-mail?
+1116;Bot
+1117;(petrol) Stay in the checkpoint to refill your car with petrol
+1118;.~n~.~n~~y~XP SPREE ~r~OVER
+1119;(XP spree) Congratulations you made %d XP kills in 2 minutes!
+1120;Double Kill
+1121;Multikill
+1122;Ultrakill
+1123;Monsterkill
+1124;Killing Spree
+1125;Rampage
+1126;Dominating
+1127;Unstoppable
+1128;Godlike
+1129;.~n~.~n~~r~> ~y~%s ~r~<
+1130;(error) Bad dmid (not between 0 and %d).
+1131;(error) This deathmatch is disabled.
+1132;(error) That deathmatch is already in progress.
+1133;(error) BAD RACE NAME: Race name must be at least 3 characters long.
+1134;(error) BAD RACE NAME: Race name must be at most %d characters long.
+1135;(error) BAD RACE NAME. Please use only a-z,0-9 characters in Race Name.
+1136;(error) Race Create Error. (race already exists?)
+1137;(race creation) Race creation started.
+1138;(race creation) Your current position will be the startline of the race.
+1139;(race creation) Use '/race cp' to add checkpoints. Use '/race cpremove' to remove the last checkpoint.
+1140;(race creation) Use '/race save' when done, to finalize race creation and initialize the race.
+1141;(error) You are not creating a race.
+1142;(error) You cant modify that race.
+1143;(race creation) Checkpoint added.
+1144;(race creation) Checkpoint removed.
+1145;(race creation) Race created successfuly.
+1146;(error) Bad raceid (not between 0 and %d).
+1147;(error) This race is disabled.
+1148;(error) That race is already in progress.
+1149;(Server Message) %s
+1150;(mod help) Available Commands:
+1151;(mod help) '/mod broadcast [MESSAGE]' - Send client message to all
+1152;(mod help) '/mod worldsave' - World save.
+1153;(mod help) '/mod announce [MESSAGE]' - Send game text to all
+1154;(mod help) '/mod givexp [playerid/partofname/name] [amount]' - Give XP to player
+1155;(mod help) '/mod slap [playerid/partofname/name] [amount]' - Slap player
+1156;(mod help) '/mod givemoney [playerid/partofname/name] [amount]' - Give money to player
+1157;(mod help) '/mod setmoney [playerid/partofname/name] [amount]' - Set money of player
+1158;(mod help) '/mod setbank [playerid/partofname/name] [amount]' - Set bank money of player
+1159;(mod help) '/mod addcrimes [playerid/partofname/name] [amount]' - add crimes to player
+1160;(mod help) '/mod disarm [playerid/partofname/name]' - Disarm selected player
+1161;(mod help) '/mod freeze [playerid/partofname/name]' - Freeze selected player
+1162;(mod help) '/mod unfreeze [playerid/partofname/name]' - Unfreeze selected player
+1163;(mod help) '/mod heal [playerid/partofname/name]' - Heal player
+1164;(mod help) '/mod god [playerid/partofname/name]' - Heal player
+1165;(mod help) '/mod murder [playerid/partofname/name]' - Kill player
+1166;(mod help) '/mod smurder [playerid/partofname/name]' - Silently kill player
+1167;(mod help) '/mod jail [playerid/partofname/name] [time(seconds)]' - Jail player for selected time
+1168;(mod help) '/mod unjail [playerid/partofname/name]' - Unjail player
+1169;(mod help) '/mod jaillist' - Show list of online jailed players
+1170;(mod help) '/mod mute [playerid/partofname/name] [time(seconds)]' - Mute player
+1171;(mod help) '/mod mutedlist' - Show list of online muted players
+1172;(mod help) '/mod unmute [playerid/partofname/name]' - Unmute player
+1173;(mod help) '/mod warn [playerid/partofname/name]' - Add one warn point to player
+1174;(mod help) '/mod unwarn [playerid/partofname/name]' - Remove one warn point from player
+1175;(mod help) '/mod lockacc [username]' - Lock account
+1176;(mod help) '/mod unlockacc [username]' - Unlock account
+1177;(mod help) '/mod makeitems' - Create items from components
+1178;(mod help) '/mod pinfo [playerid/partofname/name]' - See player info
+1179;(mod help) '/dm start [dmid]' - Start DM
+1180;(mod help) '/dm list' - see all available deathmatches
+1181;(mod help) '/race start [raceid]' - Start Race
+1182;(mod help) '/race create [racename]' - Start Race creation
+1183;(mod help) '/start hotwire' - Start Hotwire Minigame
+1184;(mod help) '/start cashbox' - Start CashBox Minigame
+1185;(mod help) '/mod tpto [playerid/partofname/name]' - Teleport to selected player
+1186;(mod help) '/mod tpplayer [playerid/partofname/name]' - Teleport to selected player
+1187;(mod help) '/mod giveweapon [playerid/partofname/name] [weaponid/partofweaponname/weaponname]' - Give weapon to player
+1188;(mod help) '/mod kick [playerid/partofname/name]|[reason]' - Kick player
+1189;(mod help) '/mod lockserver' - Lock server
+1190;(mod help) '/mod unlockserver' - Unlock server
+1191;(mod help) '/mod mark [playerid/partofname/name]' - Mark player
+1192;(error) Bad playerid. Usage: '/mod givexp [playerid/partofname/name] [xpamount]'
+1193;(error) Bad xp amount. Usage: '/mod givexp [playerid/partofname/name] [xpamount]'
+1194;(xp) %s has sent you %d experience points!
+1195;(moderator) You have sent %d experience points for %s!
+1196;(xp) %s has taken %d experience points from you!
+1197;(moderator) You have taken from %d experience points from %s!
+1198;(error) Bad playerid. Usage: '/mod slap [playerid/partofname/name] [health]'
+1199;(error) Bad slap amount. Usage: '/mod slap [playerid/partofname/name] [slapamount]'
+1200;(slap) %s slap you for %d HP!
+1201;(moderator) You have slap %d HP by %s!
+1202;(error) Bad playerid. Usage: '/mod givemoney [playerid/partofname/name] [moneyamount]'
+1203;(error) Bad money amount.  Usage: '/mod givemoney [playerid/partofname/name] [moneyamount]'
+1204;(money) %s has sent you $%d!
+1205;(moderator) You have sent $%d to %s!
+1206;(money) %s has sent taken $%d from you!
+1207;(moderator) You have taken $%d from %s!
+1208;(error) Bad playerid. Usage: '/mod setmoney [playerid/partofname/name] [moneyamount]'
+1209;(error) Bad money amount. Usage: '/mod setmoney [playerid/partofname/name] [moneyamount]'
+1210;(money) Your money is now: $%d (set by %s)
+1211;(moderator) You set money of %s to $%d.
+1212;(error) Bad playerid. Usage: '/mod setbank [playerid/partofname/name] [moneyamount]'
+1213;(error) Bad money amount. Usage: '/mod setbank [playerid/partofname/name] [moneyamount]'
+1214;(bank) Your bank money is now: $%d (set by %s)
+1215;(moderator) You set bank money of %s to $%d.
+1216;(error) Bad playerid. Usage: '/mod addcrimes [playerid/partofname/name] [crimesamount]'
+1217;(error) Bad crimes amount.  Usage: '/mod addcrimes [playerid/partofname/name] [crimesamount]'
+1218;(crimes) %s has give you %d crimes!
+1219;(moderator) You have sent %d crimes to %s!
+1220;(crimes) %s has sent taken %d crimes from you!
+1221;(moderator) You have taken %d crimes from %s!
+1222;(error) Bad playerid. Usage: '/mod disarm [playerid/partofname/name]'
+1223;(weapons) You disarmed by %s!
+1224;(moderator) You disarm %s!
+1225;(error) Bad playerid. Usage: '/mod freeze [playerid/partofname/name]'
+1226;(moderator) You freeze %s!
+1227;(freeze) You freezed by %s!
+1228;(error) Bad playerid. Usage: '/mod unfreeze [playerid/partofname/name]'
+1229;(moderator) You unfreeze %s!
+1230;(freeze) You unfreezed by %s!
+1231;(error) Bad playerid. Usage: '/mod heal [playerid/partofname/name]'
+1232;(moderator) You heal %s!
+1233;(health) You healed by %s!
+1234;(error) Bad playerid. Usage: '/mod god [playerid/partofname/name]'
+1235;(moderator) You make %s like a god!
+1236;(god) You are a god! Say thanks to %s!
+1237;(error) Bad playerid. Usage: '/mod murder [playerid/partofname/name]'
+1238;(moderator) You murder %s!
+1239;(death) You murdered by %s!
+1240;(error) Bad playerid. Usage: '/mod smurder [playerid/partofname/name]'
+1241;(moderator) You murder %s!
+1242;(mark) You stopped marking.
+1243;(error) Bad playerid. Usage: '/mod mark [playerid/partofname/name]'
+1244;(moderator) You mark %s!
+1245;(error) Bad playerid. Usage: '/mod jail [playerid/partofname/name] [time(seconds)]'
+1246;(error) Bad jail time.  Usage: '/mod jail [playerid/partofname/name] [time(seconds)]'
+1247;mmm... talk with moderators
+1248;(jail) You jail %s on %s!
+1249;(error) Bad playerid. Usage: '/mod unjail [playerid/partofname/name]'
+1250;(jail) You have been unjailed by %s!
+1251;(jail) You unjail %s!
+1252;(jail list) Player: %s. Jail time left: %s
+1253;(jail list) No jailed players online
+1254;(error) Bad playerid. Usage: '/mod mute [playerid/partofname/name] [time(seconds)]'
+1255;(error) Bad mute time.  Usage: '/mod mute [playerid/partofname/name] [time(seconds)]'
+1256;(mute) You muted %s on %s!
+1257;(mute) You muted on %s by %s!
+1258;(muted list) Player: %s. Mute time left: %s
+1259;(muted list) No muted players online
+1260;(error) Bad playerid. Usage: '/mod unmute [playerid/partofname/name]'
+1261;(mute) You unmute %s!
+1262;(mute) You unmuted by %s!
+1263;(error) Bad playerid. Usage: '/mod warn [playerid/partofname/name]'
+1264;(warns) You have been warned by %s. Warns: %d. Warns before ban: %d.
+1265;(warns) You warn %s. Warns: %d. Warns before ban: %d.
+1266;(error) Bad playerid. Usage: '/mod unwarn [playerid/partofname/name]'
+1267;(warns) %s takes away one your warn! Total warns: %d. Warns for ban: %d
+1268;(warns) You take away one warn point from %s. Total warns: %d. Warns for ban: %d
+1269;(moderator) Account %s closed!
+1270;(error) Account %s not exists!
+1271;(moderator) Account %s opened!
+1272;(moderator) Items created from components!
+1273;(error) Bad playerid. Usage: '/mod pinfo [playerid/partofname/name]'
+1274;(info) Name: %s - E-Mail: %s - IP: %s - Health: %f 
+1275;(info) Money: %d - Bank: %d 
+1276;(info) XP: %d - Level: %d 
+1277;(info) Gang: %s - Tag: %s 
+1278;(info) Now in: %s - World: %d - Interior: %d 
+1279;(error) USAGE: '/mod tpto [playerid/partofname/name]'
+1280;(error) Selected player is not connected!
+1281;(error) Why teleport to yourself?
+1282;(teleportation) You has been teleported to %s location.
+1283;(error) USAGE: '/mod tpplayer [playerid/partofname/name]'
+1284;(error) Selected player is not connected!
+1285;(error) Why teleport yourself to yourself?
+1286;(teleportation) %s has been teleported to your location.
+1287;(teleportation) %s teleport you to his position.
+1288;(error) Bad playerid. Usage: '/mod giveweapon [playerid/partofname/name] [weaponid/partofweaponname/weaponname]'
+1289;(error) Bad weapon id.  Usage: '/mod giveweapon [playerid/partofname/name] [weaponid/partofweaponname/weaponname]'
+1290;(weapon) %s give you %s!
+1291;(moderator) You give weapon %s to %s!
+1292;(error) USAGE: '/mod kick [playerid/partofname/name]|[reason]'
+1293;(error) You cannot kick yourself!
+1294;(kick) You kick %s for %s
+1295;(error) This player is not connected!
+1296;(server lock) Server already locked!
+1297;(server lock) OK, server is locked now!
+1298;(Server is locked! Players, please wait!
+1299;(server lock) Sorry, we need to close server for some time. Come back later!
+1300;(server lock) Server already unlocked!
+1301;(server lock) OK, server is unlocked now!
+1302;(MOTD) OK, MOTD reloaded!
+1303;(Moder Chat): %s : %s
+1304;(error) Sorry! No moderators online
+1305;Spoof kill with %s
+1306;Teleporting  
+1307;ALERT! %s - %s.
+1308;(commands) '/drop' - Drop mine (only if in vehicle and vehicle got mine)
+1309;Cheat found -
+1310;MultiGTA Loaded! All players, come in!
+1311;(server lock) Sorry, server is locked now
+1312;(help) Hello, %s. For help type /help.
+1313;(medic call) %s don't need a medic help now - he is dead.
+1314;(error) You are muted
+1315;(phone) %s: %s
+1316;(error) This possibility are disabled. Use '/sms [playerid/partofname/name] [text]' to send sms to player
+1317;Game mode exiting...
+1318;%s: %s    
+1319;(groundhold) '%s'. Hold this turf for money and XP.
+1320;(groundhold) You can gain up to $%d and %dXP every %d seconds for holding this ground.
+1321;(warning) A tresspasser is on your '%s' turf.
+1322;(warning) Protect your turf.
+1323;(warning) Turf '%s' lost.
+1324;(error) Not enought money at bank to send sms!    
+1325;(mod help) '/spec [playerid/partofname/name]/off' - spectate for player
+1326;(error) Usage: '/spec [playerid/partofname/name]/off'.
+1327;(error) You must be spectating.
+1328;(lock) Vehicle unlocked
+1329;~r~Mission:~n~~y~%s
+1330;~r~Mission ~n~~y~%s~n~~r~COMPLETED!
+1331;~r~Mission ~n~~y~%s~n~~r~FAILED!
+1332;(error) You need vehicle to continue mission!
+1333;(error) You need drive %s to continue this mission!
+1334;(mission) To start mission '%s' type /start
+1335;(error) You need any vehicle to start mission!
+1336;(errro) You need to be in %s to start this mission!
+1337;(error) You already complete this mission!
+1338;(warning) Get back in the car! You have 60 seconds!
+1339;(warning) Get back in the car! You have 45 seconds!
+1340;(warning) Get back in the car! You have 30 seconds!
+1341;(warning) Get back in the car! You have 15 seconds!
+1342;(warning) Get back in the car! You have 10 seconds!
+1343;(warning) Get back in the car! You have 5 seconds!
+1344;(failed) TIME LEFT!!!
+1345;Freeze
+1346;%s Health cheat
+1347;%s Armor cheat
+1348;%s Vehicle health cheat
+1349;Weapon Cheat - Infinite ammo - %s
+1350;Speed Cheat On Foot (%f)
+1351;Superjump cheat (%f)
+1352;Flying vehicle (%f)
+1353;Speed Cheat In Vehicle %s. (%.0f/%d)
+1354;Infinite NOS
+1355;(you) Damn! I don't know how to drive it. But... I may go to driving school!
+1356;(error) You are not in driving school!
+1357;(driving school) Congratulations! You can now use boats!
+1358;(driving school) You already know how to use boats!
+1359;(driving school) Congratulations! You can now use planes and helicopters!
+1360;(driving school) You already know how to use planes and helicopters!
+1361;(driving school) Congratulations! You can now use motobikes!
+1362;(driving school) You already know how to use bikes!
+1363;(driving school) Type '/learn' to do this. Cost: %d.
+1364;(driving school) Hello! You may learn how to use bikes here.
+1365;(driving school) Hello! You may learn how to use planes and helicopters here.
+1366;(driving school) Hello! You may learn how to use boats here.
+1367;(commands) '/learn' - Learn how to use vehicle (only in driving school).
+1368;(help) Wrong update. You may select one of this upgrades:
+1369;(help) 1 - health upgrade ($%d)
+1370;(help) 2 - armor upgrade ($%d)
+1371;(house) House upgrade: Health. Current health: %d.
+1372;(house) House upgrade: Armor. Current armor: %d.
+1373;(error) House already got full upgrade!
+1374;(commands) '/houseupgrade' - Buy new upgrade for house.
+1375;(taxi) You killed another player! You are no more a taxi driver!
+1376;(taxi) %s killed player!
+1377;(help) Taxi - show info about taxi job
+1378;You can live out your childhood dream by becoming a taxi driver! The San Andreas community
+1379;welcomes working citizens, so for every %d passengers you successfully drop-off you will be
+1380;rewarded with a $%d cash bonus. To be a taxi driver, seat in Taxi or Cabbie and
+1381;type '/taxi'. Then pickup players and drive them to a destination to run up the meter.
+1382;When all passengers have left your vehicle you will be paid the taxi fare. To stop
+1383;your taxi services, type '/taxi' again
+1384;(taxi) Welcome back to job, taxi driver!
+1385;(commands) '/taxi' - be a taxi driver if jobless or be a jobless if a taxi driver :) (only in taxi)
+1386;(stadium) Leave your vehicle, please
+1387;Illegal Streetracing
+1388;Mass murder
+1389;HQ: We'v lost suspect: %s
+1390;You've commited a Crime (%s)
+1391;HQ: Crime: %s, Suspect: %s
+1392;(error) Player with your bet in race disconnected. $%d returned
+1393;(error) Player with your bet in deathmatch disconnected. $%d returned
+1394;(bet) You have won $%d on %s in a streetrace
+1395;(bet) %s won $%d on %s
+1396;(bet) You have won $%d on %s in a deathmatch
+1397;(error) You already bet on player!
+1398;(error) USAGE: '/betdm [playerid/partofname/name] [amount]'
+1399;(error) Sorry, limit is $%s
+1400;(error) You can't bet on yourself!
+1401;(error) This player not in DM!
+1402;(error) DM is not in waiting
+1403;(bet) You have bet $%d on %s to win deathmatch
+1404;(bet) $%d has been bet on you by %s to win deathmatch
+1405;(bet) %s bet $%d on %s
+1406;(error) USAGE: '/betrace [playerid/partofname/name] [amount]'
+1407;(error) This player not in race!
+1408;(error) Race is not in waiting
+1409;(bet) You have bet $%d on %s to win race
+1410;(bet) $%d has been bet on you by %s to win race
+1411;Nobody
+1412;(bet list) Race: %s for $%d
+1413;(bet list) Deathmatch: %s for $%d
+1414;(taxi) %s offer a taxi services
+1415;(error) You already have a job!
+1416;(error) You cannot start your taxi services with passengers already in your vehicle!
+1417;(taxi) Your vehicle is not registered as a taxi. A $%d registration fee has been deducted from your funds.
+1418;(taxi) Your vehicle is not registered as a taxi. Either find a registered taxi or earn enough funds to cover
+1419;(taxi) the registration fee.
+1420;(taxi) The taxi registration fee is $%d.
+1421;(taxi) You are now a taxi driver. Pickup players and drive them to a destination to run up the
+1422;(taxi) meter. When all passengers have left your vehicle you will be paid the taxi fare. To stop
+1423;(taxi) your taxi services, either leave your vehicle or type '/taxi' again.
+1424;(taxi) For every %d passengers you drop-off you will receive a $%d cash bonus.
+1425;(taxi) %s is a taxi driver now!
+1426;(error) You must be a vehicle driver to use this feature.
+1427;(taxi) You have entered a taxi. The current fare is $%d.
+1428;(taxi) The last passenger to leave the taxi must pay the fare!
+1429;(taxi) You have entered a taxi. Current fare is $%d (pickup cost).
+1430;~b~Taxi Meter Started
+1431;~y~Passenger Collected
+1432;(error) Your taxi ride is over (driver ran away). The meter has been stopped.
+1433;(taxi) You have stopped your taxi services.
+1434;(taxi) %s stopped taxi services
+1435;(taxi) Your taxi ride is complete. The $%d fare has been paid with your credit card.
+1436;(taxi) Your taxi ride is complete. The $%d fare has been deducted from your funds.
+1437;(taxi) You have earnt $%d from your taxi services.
+1438;~y~Taxi bonus ~g~$%d ~y~received!
+1439;(error) You must be a taxi driver to use this feature!
+1440;(taxi) Your current taxi mileage fee is $%d/km. To change the fee, type '/taxifee [amount]'.
+1441;(error) You cannot change your taxi mileage fee while you have passengers in your vehicle!
+1442;(error) Mileage fee invalid ($%d)! Available range is $%d to $%d.
+1443;(taxi) Taxi driver %s has changed their mileage fee to $%d.
+1444;~y~Taxi Fare: ~w~$%d
+1445;(commands) /votekick [playerid/partofname/name]' - start vote to kick player
+1446;(commands) /vote [playerid/partofname/name]' - accept your vote to kick player
+1447;(error) USAGE: '/votekick [playerid/partofname/name]'
+1448;(error) Administrators and moderators can not be Vote Kicked
+1449;(votekick) %s has started a vote to kick %s, type /vote %d to vote yes
+1450;(error) USAGE: '/vote [playerid/partofname/name]'
+1451;(error) There is no vote in progress on this player
+1452;(error) You can only vote once on a player
+1453;(votekick) Your vote has been counted, Thank you for voting
+1454;(votekick) Success: %s has been voted out of the server
+1455;(votekick) Failed: %s will not be kicked
+1456;(commands) Note: some commands requires registration. If you see message 'SERVER: Unknown command', just register.
+1457;(mod help) '/mod spysms' - read all sms messages on server
+1458;(spy) Now you see all SMS messages
+1459;(spy) Now you can't see any SMS message
+1460;Prison time is not elapsed!
+1461;(error) Bad place id. Min place id: 0. Max place id: %d
+1462;(mod help) '/duel [placeid] [weaponid/partofname/name] [playerid1/partofname/name] [playerid2/partofname/name]' - start duel
+1463;(spy) %s to %s: %s
+1464;(mod help) '/mod weather [weatherid]' - change weather
+1465;(commands) '/autologin' - turn on/off autologin
+1466;(login) Autologin turned on
+1467;(login) Autologin turned off
+1468;(mod help) '/mod antifall [playerid/partofname/name]' - turn on/off anti-bike-fall
+1469;(antifall) You turned antifall on for %s
+1470;(antifall) Antifall turned on for you by %s
+1471;(antifall) You turned antifall off for %s
+1472;(antifall) Antifall turned off for you by %s
+1473;(error) Can't save your player profile. Contact with administrators!
+1474;(race) Abort
+1475;(error) Deathmatch Aborted.
+1476;VoteKick
+1477;Teleport to where?
+1478;(commands) '/lotto' - Buy lottery ticket
+1479;Lottery News: Today the Winning Number has fallen on: %d.
+1480;Lottery News: %s has won the Jackpot of $%d with his Lottery Ticket.
+1481;(lottery) You have Won $%d with your Lottery Ticket.
+1482;(lottery) You haven't won with your Lottery Ticket this time.
+1483;Lottery News: The new Jackpot has been started with $%d.
+1484;Lottery News: The Jackpot has been raised to $%d.
+1485;(error) You already have a Lottery Ticket !
+1486;(error) You need $%d for a Lottery Ticket !
+1487;(error) USAGE: '/lotto [number]'
+1488;(error) Lottery Number not below 1 or above 80 !
+1489;(lottery) You bought a Lottery Ticket with number: %d.
+1490;(mod help) '/mod ban playerid/playername/partofname|hours|reason' - ban player for selected amount of hours
+1491;(error) Usage: '/mod ban playerid/playername/partofname|hours|reason'
+1492;(error) Wrong hours amount
+1493;Warning: change your nickname.
+1494;(error) You must have %d level to create a gang.
+1495;(error) You arent bribing right now
+1496;(error) You arent being bribed.
+1497;(bribe) The bribe has been canceled.
+1498;(bribe) Your bribe got accepted!
+1499;(bribe) Bribe accepted. Remember that a honorous cop never do this.
+1500;(error) He isn't wanted any more.
+1501;(bribe) Your bribe got declined! You got reported.
+1502;(bribe) Bribe declined. Remember that a honorous cop always do this.
+1503;Bribing a policeman
+1504;(error) You are a cop and can't do this!
+1505;(error) Usage: '/bribe [playerid/name/partofname] [amount]'
+1506;(error) This is not a cop!
+1507;(error) Your not wanted
+1508;(error) Bribe to yourself? Huh!
+1509;(error) You are aldery bribing. Do '/bribecancel' for cancel.
+1510;(error) You bribe must be bigger.
+1511;(error) That cop is being bribed right now.
+1512;(bribe) %s offered you a bribe of $%s
+1513;(bribe) Type '/bribeacc' for accept or '/bribedec' for decline and report
+1514;(bribe) Bribe offered. Type '/bribecancel' or wait for an response
+1515;(Pay'n'Spray) Hi! Want to respray your vehicle for $%d? Type'/buy' to do this!
+1516;(Pay'n'Spray) You are a owner of this Pay'n'Spray. Respray is free for you!
+1517;(Pay'n'Spray) You also can get money from Pay'n'Spray. Current money: %d
+1518;(Pay'n'Spray) You can buy this Pay'n'Spray for $%d. Required level: %d. Use'/bbuy' to do this.
+1519;(error) You are too poor to respray your vehicle
+1520;(vendor) Sorry, I cant respray your vehicle.
+1521;(Pay'n'Spray) OK, your vehicle resprayed! Crimes points lost, vehicle restored.
+1522;(Pay'n'Spray) OK, we respray your vehicle for free!
+1523;(error) You do not own this Pay'n'Spray
+1524;(Pay'n'Spray) You have sold the %s
+1525;(error) Pay'n'Spray info not available yet, please report to an admin
+1526;(Pay'n'Spray) The vault is emptied
+1527;(error) The vault of this Pay'n'Spray is empty
+1528;(error) You already own this Pay'n'Spray
+1529;(Pay'n'Spray) You have bought the %s
+1530;(Pay'n'Spray) Now you can use '/bcollect' to collect money from Pay'n'Spray and
+1531;(Pay'n'Spray) '/bsetprice' to set respray price. Don't forget about'/blist'.
+1532;(Pay'n'Spray) If you don't need this Pay'n'Spray, you may sell it with'/bsell'.
+1533;(error) You don't have enough money to buy this Pay'n'Spray
+1534;(error) You need to be at least level %d to buy this Pay'n'Spray
+1535;(error) Wrong price selected!
+1536;(error) Too high price! Max price is: $%d
+1537;(Pay'n'Spray) You have set the respray price for %s. Price is: $%d
+1538;(mod help) '/duelplaces' - show list of places for duels
+1539;Timeout
+1540;Leaving
+1541;Kicked
+1542;(Duel) %s left the duel. Reason: %s
+1543;(Duel) Your opponent left, the organiser will tell you the result.
+1544;(Duel) %s won.
+1545;(Duel) Duel starting within %d seconds. You fight against %s at '%s'
+1546;%d) %s
+1547;(Duel) Invalid placeid. Usage: '/duel [placeid] [weaponid/partofname/name] [playerid1] [playerid2]'
+1548;(Duel) Invalid weaponid. Usage: '/duel [placeid] [weaponid/partofname/name] [playerid1] [playerid2]'
+1549;(Duel) Invalid player1id. Usage: '/duel [placeid] [weaponid/partofname/name] [playerid1] [playerid2]'
+1550;(Duel) Invalid player2id. Usage: '/duel [placeid] [weaponid/partofname/name] [playerid1] [playerid2]'
+1551;(Duel) A player cant duel himself.
+1552;(Duel) One playerid is not connected. Usage: '/duel [placeid/partofname/name] [weaponid] [playerid1] [playerid2]'
+1553;(Duel) %s is on a mission right now!
+1554;(Duel) YOU are on a mission right now!
+1555;(Duel) %s is jailed right now!
+1556;(Duel) You cannot be judge and duel player at the same time!
+1557;(Duel) All duels in use.
+1558;(Duel) Starting duel now.
+1559;(error) Minimal password length - %d signs.
+1560;(spectating) You have turned your spectator mode off.
+1561;(error) You can not spectate a player already spectating.
+1562;(error) You are already spectating this player.
+1563;(spectating) You are now spectating player %s.
+1564;(error) You can not spectate yourself or a disconnected player.
+1565;(mod help) You may also click at map to teleport at selected place
+1566;(mod help) '/mod crash [playerid/partofname/name]' - Crash player
+1567;(error) Bad playerid. Usage: '/mod crash [playerid/partofname/name]'
+1568;(moderator) You crashed %s!
+1569;(error) You are spectating!
+1570;(error) This player is spectating!
+1571;(error) Can't find that player '%s'.
+1572;(error) Can't autocomplete that player '%s'.
+1573;(error) Can't find that weapon '%s'.
+1574;(error) Can't autocomplete that weapon '%s'.
+1575;(report) %s was killed by %s. Duel weapon: %s, but used weapon: %s.
+1576;(error) This weapon is not allowed to this player
+1577;(error) No registered player with that name
+1578;(error) USAGE: '/send [playerid/partofname/name] [amount]
+1579;(error) You cannot send bank money to yourself!
+1580;(money) You have sent $%d to %s's bank account.
+1581;(error) Invalid transaction amount.
+1582;(money) You have sent $%d to %s's bank account (ID: %d).
+1583;(money) You have recieved $%d on your bank account from %s (ID: %d).
+1584;(error) %d is not an active player.
+1585;Bank
+1586;(bank help) If you want to send money on another player account, use '/send [playerid/partofname/name] [amount]'.
+1587;(bank help) Money will be delivered even if player offline (but in this case - use full name in command, not ID or part of name).
+1588;(commands) '/send [playerid/name/partofname] [amount]' - Send money to player bank account (if he is offline - use full name);
+1589;Favorite weapon: %s (Kills: %d) - Most popular death reason: %s (Deaths: %d)
+1590;(bank) To send money on another player account, use '/send [playerid/partofname/name] [amount]'.
+1591;(bank) Money will be delivered even if player offline (but in this case - use full name in command, not ID or part of name).
+1592;%d seconds
+1593;1 minute
+1594;%.0f minutes and %d seconds
+1595;1 hour
+1596;%.0f hours, %.0f minutes and %d seconds
+1597;(business help) Pay'n'Spray - Lost wanted level. Located near Pay'N'Sprays
+1598;(business help) Skydive Places - Parachute Jumping. Located near Airports
+1599;(business help) All businesses items are free for owners. If player buy something in business, owner receive money.
+1600;(business help) Also, players can see truck icons at map. This is components sell places.
+1601;(business help) If player in truck, he can type '/buycomp [amount]' and buy components for items in this places.
+1602;(business help) Then he can drive to business and type '/loadcomp'. Business receive components for items, player receive money.
+1603;(business help) Every 24 minute businesses create items from components. This is simple :)
+1604;(commands) '/gang setmessage [text]' - Set gang message (shown when player login) (Gangleader only)
+1605;Welcome to our band!
+1606;(error) USAGE: '/gang setmessage [message]'
+1607;(error) Too long message!
+1608;(gang message) Message set!
+1609;(Gang Message) %s
+1610;Armour cheat
+1611;(stadium) Type '/dirtbike' to get into stunting arena
+1612;(stadium) Welcome!
+1613;(stadium) Type '/derby' to get into derby arena
+1614;(derby) Don't try to exit your vehicle
+1615;(error) Cannot join - Derby in progress
+1616;(error) Not enough money.  $%d required to enter
+1617;(error) Cannot join - Must be on foot
+1618;(error) About to enter derby, please wait...
+1619;(error) Too late! Less than 10 seconds until derby start
+1620;(derby) You will enter the derby in 10 seconds
+1621;(error) You don't know how to use bikes.
+1622;(commands) '/gang upgrade [type]' - Upgrade your gang (costs money) (GangLeader only). No type - show info.
+1623;(error) You are already in derby!
+1624;(derby) Players:
+1625;%s %s(%0.2f)
+1626;(derby)
+1627;(error) No derby in progress
+1628;(derby) You've joined the Demolition Derby
+1629;(derby) Objective: Smash opponents - Winner: Last player alive
+1630;~n~~n~~n~~n~~n~~n~~n~~r~Demolition Derby Started~n~~w~%d secs to join
+1631;(derby) Derby Started!
+1632;~n~~n~~n~~n~~n~~n~~n~~r~Demolition Derby~n~~w~Countdown: %d:%02d
+1633;~n~~n~~n~~n~~n~~n~~n~~r~Demolition Derby~n~~w~30 secs to join
+1634;(derby) No players joined - Derby ended
+1635;(derby) You have been ejected from the derby and your money refunded
+1636;(derby) Total Players: %d - Money Pot: $%d
+1637;~n~~n~~n~~n~~n~~n~~n~~r~Demolition Derby~n~~w~GO! GO! GO! GO!
+1638;~n~~n~~n~~n~~n~~n~~n~~r~Demolition Derby~n~~w~Your car blew up - lost
+1639;(derby) %s's car blew up - %d players left!
+1640;~n~~n~~n~~n~~n~~n~~n~~r~Demolition Derby~n~~w~%s won!
+1641;(derby) Time's up! %s won with the least damaged car
+1642;(derby) Get your car moving NOW (%d/%d)
+1643;(derby) You have been disqualified for camping
+1644;(derby) %s joined the derby!
+1645;(error) Not enought money to upgrade gang! Needed $%d.
+1646;(error) Unknown upgrade type! Types: 'armour' ($%d), 'friendlyfire' ($%d), 'weapon [weaponname]' (cost depends from weapon)
+1647:(error) Not enought money to upgrade house! Needed $%d.
+1648:(error) You already got enought armour!
+1649;(error) You already got enought health!
+1650;Your gang already got friendly fire upgrade!
+1651;Gang upgraded: Friendly Fire.
+1652;N/A
+1653;%f
+1654;New gang weapon: %s
+1655;(commands) '/rules' - read server rules
+1656;(mod help) '/buildhouse' - start house creation
+1657;(house builder) To cancel making a house, type /cancelbuild.
+1658;(house builder) You started making a house, type /buildhouse again to make the house entrance (outside)
+1659;(house builder) You succesfully created the house entrance (outside).
+1660;(house builder) Type /buildhouse again to make the exit of the house (inside).
+1661;(error) You need to be in a interior.
+1662;(house builder) You succesfully created the house exit (inside).
+1663;(house builder) Type /buildhouse <cost> to set the cost of the house.
+1664;(error) Description must be same as another house description
+1665;(house builder) You succesfully setted the house description to '%s.
+1666;(house builder) Type /buildhouse again to save your house.
+1667;(error) You are not creating a house!
+1668;(house builder) Build cancelled
+1669;(house builder) House saved!
+1670;Can't find such race
+1671;(mod help) '/race find [partofname]' - find race by part of name
+1672;(error) USAGE: '/race find [partofname]' - find race by part of name
+1673;(error) USAGE: '/dm find [partofname]' - find dm by part of name
+1674;Can't find such DM
+1675;(mod help) '/dm find [partofname]' - find dm by part of name
+1676;Hays played: %d - Won Hays: %d - Ratio: %s.
+1677;(events help) And the last type - hay.
+1678;(events help) Hays are randomly running all over the world in MultiGTA.
+1679;(events help) Joining a hay costs money, make sure you have enough on you.
+1680;(events help) When hay will be ready to run, the red map marker will be set to the hay startline.
+1681;(events help) You must get to the startline for the start of the hay. (follow your map marker)
+1682;(events help) After hay starts, you must get as high, as possible, to win.
+1683;(hay) Get up the hay tower!
+1684;(warning) Stop punshing.
+1685;(hay) New personal highest level: %d
+1686;(hay) Start in %d seconds.
+1687;(hay) '%s' (dmid:%d) starts in %d seconds in '%s'. Hay levels: %d
+1688;(hay) Entry Fee: $%d. Required Level: %d. Minimum players: %d.
+1689;(error) You have not enough money on your bank account to send SMS!
+1690;~w~Hay:~n~~y~Prepare
+1691;(hay) You cannot join this hay because you are busy!
+1692;(error) Hay Aborted. You are not at startline.
+1693;(hay) '%s' did not run. Not enough players
+1694;(hay) '%s' starting.
+1695;(error) You need $%d to enter this hay.
+1696;(error) You must be at least level %d to enter this hay.
+1697;(hay) %s has joined the hay. (Players: %d/%d)
+1698;(hay) %s has joined the hay. (Players: %d)
+1699;~g~Hay Entered.
+1700;(hay) Entered. Starts in %d seconds.
+1701;(error) You cannot enter this hay at this time.
+1702;(hay) '%s' won! Level: %d.
+1703;(hay) %s has won in '%s'! Level: %d.
+1704;Illegal hay
+1705;(hay) %s has set a new record for '%s'! Score: %d. Old record: %d.
+1706;(hay) %s has left the dm. (Players: %d/%d:)
+1707;(hay) %s has left the dm. (Players: %d)
+1708;~r~Hay Aborted.
+1709;(error) Hay Aborted.
+1710;(hay) %s has left the hay. (Players: %d)
+1711;(hay) Hay Left.
+1712;(hay) Wait here! Hay starts in %d seconds.
+1713;(error) Bad hayid (not between 0 and %d).
+1714;(error) This hay is disabled.
+1715;(error) That hay is already in progress.
+1716;(error) Sorry, event already in progress.
+1717;Available hays:
+1718;(hay) '%s' (id: %d). Players needed: %d. Start Location: %s. Players Level: %d. Levels: %d. Objects: %d.
+1719;(error) USAGE: '/hay find [partofname]' - find hay by part of name
+1720;Can't find such hay
+1721;(mod help) '/hay start [hayid]' - Start Hay
+1722;(mod help) '/hay list' - see all available deathmatches
+1723;(mod help) '/hay find [partofname]' - find hay by part of name
+1724;(error) Player with your bet in hay disconnected. $%d returned
+1725;(bet) %s won $%d on %s
+1726;(bet) You have won $%d on %s in a hay
+1727;(error) USAGE: '/bethay [playerid/partofname/name] [amount]'
+1728;(error) You can't bet on yourself!
+1729;(error) This player not in Hay!
+1730;(error) Hay is not in waiting
+1731;(bet) You have bet $%d on %s to win hay
+1732;(bet) $%d has been bet on you by %s to win hay
+1733;(bet) %s bet $%d on %s
+1734;(bet list) Hay: %s for $%d
+1735;(commands) '/betdm [name/playerid/partofname] [amount]' - bet on DM player
+1736;(commands) '/betrace [name/playerid/partofname] [amount]' - bet on racer
+1737;(commands) '/bethay [name/playerid/partofname] [amount]' - bet on hay player
+1738;(commands) '/mybets' - show bets
+1739;RUN!
+1740;Kill swimming player
+1741;(cashbox) Time's up! Nobody don't deliver the cashbox!
+1742;Too high buyout! Max buyout is $%d.
+1743;Bank
+1744;Place where players can store money
+1745;Gym
+1746;Place where players can boxing
+1747;Clothes shop
+1748;Place where players can lost wanted level
+1749;Club
+1750;Party time! Players can dance here!
+1751;Police station
+1752;Player can get cop job here.
+1753;Drink vendor
+1754;Player can buy energy drinks here.
+1755;Fuel station
+1756;Player can buy canisters and refill fuel here.
+1757;Components
+1758;Player can buy components for items in businesses here
+1759;Hospital
+1760;Player can get medic job here
+1761;Mines
+1762;Player can set mine on vehicles here
+1763;Bike school
+1764;Learn how to drive bikes!
+1765;Flying school
+1766;Learn how to use helicopters and planes!
+1767;Boat school
+1768;Learn how to be a sailor!
+1769;Skydive
+1770;Player can do a good skydive here!
+1771;Picked up secret packet ~n~~g~%d ~w~of ~r~%d~n~Reward $%d
+1772;Temporary ban not ended
+1773;Car jacking cheat
+1774;Oyster founded ~n~~g~%d ~w~of ~r~%d~n~Reward $%d
+1775;Picked up horseshoe ~n~~g~%d ~w~of ~r~%d~n~Reward $%d
+1776;(mod help) '/mod fakecmd playerid/playername/partofname|command' - execute command for this player
+1777;(error) Usage: '/mod fakecmd playerid/playername/partofname|text'
+1778;(fakecmd) Command executed
+1779;Where you wanna go?
+1780;Select
+1781;Cancel
+1782;Rcon bruteforce
+1783;Groundhold zone
+1784;Hold ground for XP and money
+1785;(boxing help) You may also change fight style near Gym. Type '/fightstyle' to do this. But this costs money ($%d)
+1786;Fighting Styles
+1787;(boxing) Fight style changed
+1788;(error) Your current fightstyle is already such!
+1789;You are not allowed to use caps-lock. Please disable it.
+1790;(error) Weapon '%s" is not allowed on this server!
+1791;(error) Type weapon name!
+1792;Weapon in hay (%s)

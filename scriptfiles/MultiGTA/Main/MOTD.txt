@@ -1,0 +1,8 @@
+MOTD_Text0=Welcome to MultiGTA Development Test Server
+MOTD_Text1=Expect bugs, crashes, downtimes. That's the life of testserver
+MOTD_Text2=
+MOTD_Text3=
+MOTD_Color0=FFFF00AA
+MOTD_Color1=FFFF00AA
+MOTD_Color2=
+MOTD_Color3=
